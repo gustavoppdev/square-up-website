@@ -3,6 +3,28 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  /* Green Colors */
+  --color-app-primary: #9eff00; /* Primary - 50 */
+  --color-app-green-60: #b1ff33;
+  --color-app-green-70: #c5ff66;
+  --color-app-green-80: #d8ff99;
+  --color-app-green-90: #ecffcc;
+  --color-app-green-95: #f5ffe5;
+  --color-app-green-97: #f9fff0;
+  --color-app-green-99: #fdfffa;
+
+  /* Grey Colors */
+  --color-app-grey-10: #191919;
+  --color-app-grey-15: #262626; /* Foreground */
+  --color-app-grey-20: #333333;
+  --color-app-grey-30: #4c4c4d;
+  --color-app-grey-35: #59595a;
+  --color-app-grey-40: #656567;
+  --color-app-grey-60: #98989a;
+  --color-app-grey-90: #e6e6e6;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
