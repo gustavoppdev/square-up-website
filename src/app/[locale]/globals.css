@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer utilities {
+  .section-container {
+    @apply container mx-auto px-4 md:px-10 xl:px-20;
+  }
+}
+
 @theme {
   /* Green Colors */
   --color-app-primary: #9eff00; /* Primary - 50 */
@@ -142,6 +148,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-app-grey-10 text-foreground;
   }
 }
