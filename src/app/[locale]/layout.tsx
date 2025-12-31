@@ -9,6 +9,7 @@ import { routing } from "@/i18n/routing";
 
 // Css
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const barlow = Barlow({
   variable: "--font-barlow",
@@ -35,11 +36,18 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body className={`${barlow.className} antialiased`}>
-        <NextIntlClientProvider locale={locale}>
-          {children}
-        </NextIntlClientProvider>
+        <ThemeProvider
+          attribute={"class"}
+          defaultTheme="dark"
+          forcedTheme="dark"
+          enableSystem={false}
+        >
+          <NextIntlClientProvider locale={locale}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
