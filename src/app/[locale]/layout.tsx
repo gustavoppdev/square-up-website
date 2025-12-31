@@ -10,6 +10,7 @@ import { routing } from "@/i18n/routing";
 // Css
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import NavigationBar from "@/components/layout/NavigationBar";
 
 const barlow = Barlow({
   variable: "--font-barlow",
@@ -45,6 +46,7 @@ export default async function RootLayout({ children, params }: Props) {
           enableSystem={false}
         >
           <NextIntlClientProvider locale={locale}>
+            <NavigationBar />
             {children}
           </NextIntlClientProvider>
         </ThemeProvider>

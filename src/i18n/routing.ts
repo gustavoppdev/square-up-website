@@ -6,4 +6,37 @@ export const routing = defineRouting({
 
   // Used when no locale matches
   defaultLocale: "pt",
+
+  pathnames: {
+    "/": {
+      pt: "/inicio",
+      en: "/",
+    },
+    "/services": {
+      pt: "/solucoes",
+      en: "/services",
+    },
+    "/portfolio": {
+      pt: "/portfolio",
+      en: "/portfolio",
+    },
+    "/methodology": {
+      pt: "/metodologia",
+      en: "/methodology",
+    },
+    "/about": {
+      pt: "/quem-somos",
+      en: "/about-us",
+    },
+    "/careers": {
+      pt: "/carreiras",
+      en: "/careers",
+    },
+    "/contact": {
+      pt: "/fale-conosco",
+      en: "/contact-us",
+    },
+  },
 });
+
+export type Pathnames = keyof typeof routing.pathnames;

@@ -1,5 +1,15 @@
 {
-  "HomePage": {
-    "title": "oi world!"
+  "Layout": {
+    "NavigationBar": {
+      "Links": {
+        "home": "Início",
+        "services": "Soluções",
+        "portfolio": "Portfólio",
+        "methodology": "Metodologia",
+        "about": "Quem Somos",
+        "careers": "Carreiras"
+      },
+      "contactBtn": "Fale Conosco"
+    }
   }
 }
