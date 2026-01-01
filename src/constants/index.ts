@@ -1,4 +1,12 @@
-import { NavigationLink } from "@/types";
+import {
+  adobeLogo,
+  amazonLogo,
+  slackLogo,
+  spotifyLogo,
+  zapierLogo,
+  zoomLogo,
+} from "@/assets";
+import { NavigationLink, Partner } from "@/types";
 
 export const NavigationBarLinks: NavigationLink[] = [
   {
@@ -24,5 +32,32 @@ export const NavigationBarLinks: NavigationLink[] = [
   {
     href: "/careers",
     label: "Links.careers",
+  },
+];
+
+export const PartnersArray: Partner[] = [
+  {
+    img: zapierLogo,
+    alt: "Zapier",
+  },
+  {
+    img: spotifyLogo,
+    alt: "Spotify",
+  },
+  {
+    img: zoomLogo,
+    alt: "Zoom",
+  },
+  {
+    img: slackLogo,
+    alt: "Slack",
+  },
+  {
+    img: amazonLogo,
+    alt: "Amazon",
+  },
+  {
+    img: adobeLogo,
+    alt: "Adobe",
   },
 ];
