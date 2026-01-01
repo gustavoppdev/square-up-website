@@ -9,7 +9,7 @@ export const routing = defineRouting({
 
   pathnames: {
     "/": {
-      pt: "/inicio",
+      pt: "/",
       en: "/",
     },
     "/services": {
