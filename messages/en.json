@@ -11,5 +11,14 @@
       },
       "contactBtn": "Contact Us"
     }
+  },
+  "Sections": {
+    "Hero": {
+      "headline": "A Digital Product Studio<block> that will Work</block>",
+      "paragraphMobile": "For startups, enterprise leaders, media & publishers, and social good.",
+      "paragraphDesktop": "For <badge>startups</badge>, <badge>enterprise leaders</badge>, <badge>media & publishers</badge> and <badge>social good</badge>",
+      "worksBtn": "Our Works",
+      "contactBtn": "Contact Us"
+    }
   }
 }

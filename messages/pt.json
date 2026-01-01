@@ -11,5 +11,14 @@
       },
       "contactBtn": "Fale Conosco"
     }
+  },
+  "Sections": {
+    "Hero": {
+      "headline": "Um Estúdio de Produtos Digitais <block>feito para dar certo</block>",
+      "paragraphMobile": "Para startups, líderes corporativos, mídia & editoras e impacto social.",
+      "paragraphDesktop": "Para <badge>startups</badge>, <badge>líderes corporativos</badge>, <badge>mídia & editoras</badge> e <badge>impacto social</badge>",
+      "worksBtn": "Nossos Projetos",
+      "contactBtn": "Fale Conosco"
+    }
   }
 }

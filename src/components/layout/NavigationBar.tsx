@@ -1,4 +1,5 @@
-import { logo } from "@/assets";
+// 
+import { squareUpLogo } from "@/assets";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 import NavigationBarMobile from "./NavigationBarMobile";
@@ -9,11 +10,11 @@ import { useTranslations } from "next-intl";
 const NavigationBar = () => {
   const t = useTranslations("Layout.NavigationBar");
   return (
-    <header className="section-container">
-      <nav className="pt-10 pb-5 flex items-center justify-between">
+    <header className="border-b">
+      <nav className="section-container pt-10 pb-5 flex items-center justify-between">
         <Link href={"/"}>
           <Image
-            src={logo}
+            src={squareUpLogo}
             alt="Square Up"
             priority
             className="w-36 object-cover"
