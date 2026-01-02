@@ -9,11 +9,11 @@ const Partners = () => {
   const t = useTranslations("Sections.Partners");
 
   return (
-    <section className="section-container border-x border-b border-app-grey-15 relative">
+    <section className="section-container relative">
       <p className="absolute -top-6 left-1/2 -translate-x-1/2 px-6 py-3.5 border rounded-full text-sm font-medium bg-app-grey-10 hover:border-app-grey-35 hover:bg-app-grey-10/80 transition-colors duration-200 whitespace-nowrap">
         {t("paragraph")}
       </p>
-      <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 border-x border-b">
         {PartnersArray.map((partner) => (
           <li
             key={partner.alt}
