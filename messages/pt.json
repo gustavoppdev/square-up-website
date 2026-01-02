@@ -22,6 +22,222 @@
     },
     "Partners": {
       "paragraph": "Aprovado por 250+ empresas"
+    },
+    "OurServices": {
+      "headline": "Nossas Soluções",
+      "paragraph": "Transforme sua marca com nossas soluções digitais inovadoras que cativam e envolvem seu público."
+    }
+  },
+  "Common": {
+    "Services": {
+      "learnMoreBtn": "Saiba mais",
+      "design": {
+        "title": "Design",
+        "description": "Criamos interfaces focadas no usuário que elevam sua marca e cativam o público. Nosso foco é unir estética e funcionalidade para entregar experiências digitais intuitivas, fluidas e visualmente impactantes.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      },
+      "engineering": {
+        "title": "Engenharia",
+        "description": "Construímos soluções digitais robustas, seguras e escaláveis utilizando tecnologias de ponta. Transformamos requisitos complexos em aplicações de alta performance que impulsionam o seu negócio.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      },
+      "projectManagement": {
+        "title": "Gestão de Projetos",
+        "description": "Garantimos a entrega de sua visão com pontualidade, transparência e excelência técnica. Utilizamos metodologias ágeis para manter você conectado ao processo em todas as etapas do desenvolvimento.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

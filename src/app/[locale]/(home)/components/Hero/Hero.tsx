@@ -19,7 +19,7 @@ export const Hero = () => {
         <HeroButtons />
       </div>
 
-      <div className="absolute bottom-0 left-0 w-full min-h-[calc(50dvh-108px)]">
+      <div className="absolute bottom-0 left-0 w-full min-h-[calc(60dvh-108px)]">
         <Image
           src={heroAbstract}
           alt=""

@@ -10,5 +10,23 @@ export type NavigationLink = {
 
 export type Partner = {
   img: StaticImageData;
-  alt: string
-}
+  alt: string;
+};
+
+export type ServiceInclusion = {
+  title: TranslationKey;
+  icon: StaticImageData;
+};
+
+export type ServiceGroup = {
+  subtitle: TranslationKey;
+  inclusions: ServiceInclusion[];
+};
+
+export type Service = {
+  title: TranslationKey;
+  description: TranslationKey;
+  icon: StaticImageData;
+  href: Pathnames;
+  groups?: ServiceGroup[];
+};

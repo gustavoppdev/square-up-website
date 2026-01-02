@@ -22,6 +22,222 @@
     },
     "Partners": {
       "paragraph": "Trusted By 250+ Companies"
+    },
+    "OurServices": {
+      "headline": "Our Services",
+      "paragraph": "Transform your brand with our innovative digital solutions that captivate and engage your audience."
+    }
+  },
+  "Common": {
+    "Services": {
+      "learnMoreBtn": "Learn More",
+      "design": {
+        "title": "Design",
+        "description": "We create user-centric interfaces that elevate your brand and captivate your audience. Our focus is blending aesthetics and functionality to deliver intuitive, seamless, and visually impactful digital experiences.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      },
+      "engineering": {
+        "title": "Engineering",
+        "description": "We build robust, secure, and scalable digital solutions using cutting-edge technologies. Our team transforms complex requirements into high-performance applications designed to drive your business forward.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "We ensure your vision is delivered with punctuality, transparency, and technical excellence. We utilize agile methodologies to keep you connected to the process at every stage of the development lifecycle.",
+        "groups": {
+          "01": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "02": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          },
+          "03": {
+            "subtitle": "",
+            "inclusions": {
+              "01": {
+                "title": "",
+                "icon": ""
+              },
+              "02": {
+                "title": "",
+                "icon": ""
+              },
+              "03": {
+                "title": "",
+                "icon": ""
+              },
+              "04": {
+                "title": "",
+                "icon": ""
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
