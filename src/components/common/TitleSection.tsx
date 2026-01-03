@@ -23,7 +23,7 @@ const TitleSection = ({ translationNamespace, bgImage }: Props) => {
     "(max-width: 640px) 100vw, (max-width: 768px) 608px, (max-width: 1024px) 688px, (max-width: 1280px) 944px, (max-width: 1536px) 1120px, 1376px";
 
   return (
-    <div className="py-12.5 lg:py-25 text-center relative border-x border-b">
+    <div className="py-12.5 lg:py-25 2xl:py-30 text-center relative border-x border-b">
       <Image
         src={BG_MAP[bgImage]}
         alt=""
@@ -42,11 +42,13 @@ const TitleSection = ({ translationNamespace, bgImage }: Props) => {
         className="object-cover object-center -z-10"
       />
 
-      <div className="z-10 space-y-1.5 lg:space-y-2.5 2xl:space-y-3.5 px-4">
+      <div className="z-10 space-y-1.5 lg:space-y-2.5 2xl:space-y-4 px-4 text-balance">
         <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl">
           {t("headline")}
         </h2>
-        <p className="text-sm md:text-base 2xl:text-lg">{t("paragraph")}</p>
+        <p className="text-sm md:text-base 2xl:text-lg max-w-5xl mx-auto">
+          {t("paragraph")}
+        </p>
       </div>
     </div>
   );

@@ -17,6 +17,14 @@ import shieldIcon from "./images/icons/shield.png";
 import crownIcon from "./images/icons/crow.png";
 import communicationIcon from "./images/icons/communication.png";
 
+// Pictures
+import emilyPicture from "./images/pictures/emily.png";
+import johnPicture from "./images/pictures/john.png";
+import lauraPicture from "./images/pictures/laura.png";
+import markPicture from "./images/pictures/mark.png";
+import michaelPicture from "./images/pictures/michael.png";
+import sarahPicture from "./images/pictures/sarah.png";
+
 import heroAbstract from "./images/heroAbstract.png";
 import titleSectionBg1 from "./images/titleSectionBg1.webp";
 import titleSectionBg2 from "./images/titleSectionBg2.webp";
@@ -45,6 +53,16 @@ export {
   shieldIcon,
   crownIcon,
   communicationIcon,
+};
+
+// Pictures
+export {
+  emilyPicture,
+  johnPicture,
+  lauraPicture,
+  markPicture,
+  michaelPicture,
+  sarahPicture,
 };
 
 // Images

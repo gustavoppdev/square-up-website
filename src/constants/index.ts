@@ -4,16 +4,28 @@ import {
   batteryIcon,
   communicationIcon,
   crownIcon,
+  emilyPicture,
+  johnPicture,
+  lauraPicture,
+  markPicture,
   medalIcon,
+  michaelPicture,
   paintbrushIcon,
   puzzleIcon,
+  sarahPicture,
   shieldIcon,
   slackLogo,
   spotifyLogo,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { NavigationLink, Partner, Quality, Service } from "@/types";
+import {
+  NavigationLink,
+  Partner,
+  Quality,
+  Service,
+  Testimonial,
+} from "@/types";
 
 export const NavigationBarLinks: NavigationLink[] = [
   {
@@ -152,5 +164,50 @@ export const QualitiesArray: Quality[] = [
     title: "04.title",
     description: "04.description",
     icon: crownIcon,
+  },
+];
+
+export const TestimonialsArray: Testimonial[] = [
+  {
+    title: "depoiments.01.title",
+    quote: "depoiments.01.quote",
+    author: "depoiments.01.author",
+    position: "depoiments.01.position",
+    img: johnPicture,
+  },
+  {
+    title: "depoiments.02.title",
+    quote: "depoiments.02.quote",
+    author: "depoiments.02.author",
+    position: "depoiments.02.position",
+    img: sarahPicture,
+  },
+  {
+    title: "depoiments.03.title",
+    quote: "depoiments.03.quote",
+    author: "depoiments.03.author",
+    position: "depoiments.03.position",
+    img: markPicture,
+  },
+  {
+    title: "depoiments.04.title",
+    quote: "depoiments.04.quote",
+    author: "depoiments.04.author",
+    position: "depoiments.04.position",
+    img: lauraPicture,
+  },
+  {
+    title: "depoiments.05.title",
+    quote: "depoiments.05.quote",
+    author: "depoiments.05.author",
+    position: "depoiments.05.position",
+    img: michaelPicture,
+  },
+  {
+    title: "depoiments.06.title",
+    quote: "depoiments.06.quote",
+    author: "depoiments.06.author",
+    position: "depoiments.06.position",
+    img: emilyPicture,
   },
 ];
