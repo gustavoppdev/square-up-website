@@ -44,3 +44,9 @@ export type Testimonial = {
   position: TranslationKey;
   img: StaticImageData;
 };
+
+export type FAQ = {
+  question: TranslationKey;
+  answer: TranslationKey;
+  index: string;
+};

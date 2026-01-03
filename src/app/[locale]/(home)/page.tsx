@@ -3,6 +3,7 @@ import Partners from "./components/Partners";
 import { OurServices } from "./components/OurServices";
 import { WhyChooseUs } from "./components/WhyChooseUs";
 import { Testimonials } from "./components/Testimonials";
+import { FAQ } from "@/components/common/FAQ";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <OurServices />
       <WhyChooseUs />
       <Testimonials />
+      <FAQ />
     </main>
   );
 };

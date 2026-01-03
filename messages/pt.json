@@ -91,6 +91,44 @@
           "position": "CEO da FitLife Tracker"
         }
       }
+    },
+    "FAQ": {
+      "headline": "Perguntas Frequentes",
+      "paragraph": "Ainda tem alguma dúvida? Entre em contato com nossa equipe em hello@squareup.com",
+      "questions": {
+        "01": {
+          "question": "Quais serviços a SquareUp oferece?",
+          "answer": "A SquareUp oferece uma gama completa de serviços, incluindo design UI/UX, engenharia web e mobile, e gestão ágil de projetos para entregar produtos digitais de alta qualidade."
+        },
+        "02": {
+          "question": "Como a SquareUp pode ajudar meu negócio?",
+          "answer": "Ajudamos seu negócio a crescer criando soluções escaláveis, otimizando a experiência do usuário e implementando tecnologias modernas que aumentam a eficiência e o alcance de mercado."
+        },
+        "03": {
+          "question": "Com quais setores a SquareUp trabalha?",
+          "answer": "Trabalhamos com diversos setores, como FinTech, E-commerce, Saúde e Imobiliário, adaptando nossa expertise técnica aos desafios únicos de cada indústria e modelo de negócio."
+        },
+        "04": {
+          "question": "Quanto tempo leva para concluir um projeto?",
+          "answer": "O cronograma varia conforme a complexidade, mas projetos típicos levam de 8 a 16 semanas. Fornecemos um plano detalhado durante nossa fase inicial de descoberta."
+        },
+        "05": {
+          "question": "Vocês oferecem suporte após a conclusão?",
+          "answer": "Sim, oferecemos pacotes de manutenção e suporte contínuo para garantir que sua plataforma permaneça segura, atualizada e otimizada conforme seu negócio continua a evoluir."
+        },
+        "06": {
+          "question": "Vocês trabalham com frameworks existentes?",
+          "answer": "Com certeza. Nossa equipe de engenharia é altamente adaptável e pode integrar-se perfeitamente aos seus sistemas de design, bases de código ou frameworks de desenvolvimento atuais."
+        },
+        "07": {
+          "question": "Qual será o meu nível de envolvimento no projeto?",
+          "answer": "Você estará envolvido de perto através de revisões de sprint e reuniões regulares. Valorizamos a colaboração transparente para garantir que o produto final alinhe-se à sua visão."
+        },
+        "08": {
+          "question": "Podem ajudar com atualizações de apps e sites?",
+          "answer": "Oferecemos serviços dedicados para atualizações de recursos, monitoramento de performance e patches de segurança para manter suas aplicações funcionando perfeitamente e competitivas."
+        }
+      }
     }
   },
   "Common": {
