@@ -48,6 +48,49 @@
           "description": "Atuamos como seu parceiro digital dedicado de longo prazo, oferecendo suporte contínuo e atualizações constantes para garantir que seus produtos evoluam e prosperem em um mercado dinâmico."
         }
       }
+    },
+    "Testimonials": {
+      "headline": "O que nossos clientes dizem sobre nós",
+      "paragraph": "Na SquareUp, nos orgulhamos de entregar produtos digitais excepcionais que impulsionam o sucesso. Veja o que alguns de nossos clientes têm a dizer.",
+      "openWebsiteBtn": "Ver Site",
+      "depoiments": {
+        "01": {
+          "title": "A SquareUp transformou nossa presença online com eficácia.",
+          "quote": "A expertise em design resultou em um e-commerce deslumbrante. Nossas vendas online dispararam e não poderíamos estar mais satisfeitos com os resultados.",
+          "author": "John Smite",
+          "position": "CEO da Chic Boutique"
+        },
+        "02": {
+          "title": "Trabalhar com a equipe da SquareUp foi uma experiência incrível.",
+          "quote": "Eles criaram um app que otimizou perfeitamente nosso serviço de entrega. A experiência de compra superou expectativas e nossos clientes estão amando.",
+          "author": "Sarah Johnson",
+          "position": "Fundadora da HungryBites"
+        },
+        "03": {
+          "title": "Um sistema de reservas completo que mudou nosso negócio.",
+          "quote": "O compromisso em entregar uma plataforma intuitiva foi evidente. O sistema otimizou nossas operações e melhorou muito a experiência de nossos clientes.",
+          "author": "Mark Thompson",
+          "position": "CEO da EventMasters"
+        },
+        "04": {
+          "title": "Software personalizado excepcional para automação de fluxo.",
+          "quote": "Eles entregaram uma solução que aumentou significativamente nossa produtividade. O profissionalismo da SquareUp os tornou um parceiro vital de tecnologia.",
+          "author": "Laura Adams",
+          "position": "CEO da ProTech Solutions"
+        },
+        "05": {
+          "title": "Um portal web cativante para nossas listagens imobiliárias.",
+          "quote": "A plataforma é visualmente atraente e muito fácil de navegar. Compradores encontram o imóvel ideal sem esforço graças à expertise inigualável da equipe.",
+          "author": "Michael Anderson",
+          "position": "Fundador da Dream Homes Realty"
+        },
+        "06": {
+          "title": "Um app móvel intuitivo que mantém nossos usuários motivados.",
+          "quote": "O aplicativo rico em recursos ajudou nossos usuários a atingirem suas metas. Recomendamos a SquareUp para qualquer desenvolvimento de apps de saúde.",
+          "author": "Emily Turner",
+          "position": "CEO da FitLife Tracker"
+        }
+      }
     }
   },
   "Common": {

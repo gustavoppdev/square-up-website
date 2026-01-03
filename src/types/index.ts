@@ -36,3 +36,11 @@ export type Quality = {
   description: TranslationKey;
   icon: StaticImageData;
 };
+
+export type Testimonial = {
+  title: TranslationKey;
+  quote: TranslationKey;
+  author: TranslationKey;
+  position: TranslationKey;
+  img: StaticImageData;
+};
