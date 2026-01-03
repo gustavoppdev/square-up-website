@@ -91,6 +91,44 @@
           "position": "CEO of FitLife Tracker"
         }
       }
+    },
+    "FAQ": {
+      "headline": "Frequently Asked Questions",
+      "paragraph": "Still you have any questions? Contact our Team via hello@squareup.com",
+      "questions": {
+        "01": {
+          "question": "What services does SquareUp provide?",
+          "answer": "SquareUp offers a comprehensive range of services including UI/UX design, web and mobile engineering, and agile project management to deliver high-quality digital products."
+        },
+        "02": {
+          "question": "How can SquareUp help my business?",
+          "answer": "We help your business grow by creating scalable digital solutions, optimizing user experiences, and implementing modern technologies that increase efficiency and market reach."
+        },
+        "03": {
+          "question": "What industries does SquareUp work with?",
+          "answer": "We work with diverse sectors including FinTech, E-commerce, Healthcare, Real Estate, and Startups, adapting our technical expertise to the unique challenges of each industry."
+        },
+        "04": {
+          "question": "How long does it take to complete a project?",
+          "answer": "The timeline varies based on complexity, but a typical project ranges from 8 to 16 weeks. We provide a detailed roadmap during our initial discovery phase."
+        },
+        "05": {
+          "question": "Do you offer support after project completion?",
+          "answer": "Yes, we offer ongoing maintenance and support packages to ensure your platform stays secure, updated, and fully optimized as your business continues to evolve."
+        },
+        "06": {
+          "question": "Can you work with existing frameworks?",
+          "answer": "Absolutely. Our engineering team is highly adaptable and can seamlessly integrate with your current design systems, codebase, or existing development frameworks."
+        },
+        "07": {
+          "question": "How involved will I be in the process?",
+          "answer": "You will be closely involved through regular sprint reviews and meetings. We value transparent collaboration to ensure the final product perfectly aligns with your vision."
+        },
+        "08": {
+          "question": "Can you help with app updates and maintenance?",
+          "answer": "We provide dedicated services for feature updates, performance monitoring, and security patches to keep your digital applications running smoothly and staying competitive."
+        }
+      }
     }
   },
   "Common": {

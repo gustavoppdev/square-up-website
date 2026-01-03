@@ -20,6 +20,7 @@ import {
   zoomLogo,
 } from "@/assets";
 import {
+  FAQ,
   NavigationLink,
   Partner,
   Quality,
@@ -209,5 +210,48 @@ export const TestimonialsArray: Testimonial[] = [
     author: "depoiments.06.author",
     position: "depoiments.06.position",
     img: emilyPicture,
+  },
+];
+
+export const FAQArray: FAQ[] = [
+  {
+    question: "01.question",
+    answer: "01.answer",
+    index: "01",
+  },
+  {
+    question: "02.question",
+    answer: "02.answer",
+    index: "02",
+  },
+  {
+    question: "03.question",
+    answer: "03.answer",
+    index: "03",
+  },
+  {
+    question: "04.question",
+    answer: "04.answer",
+    index: "04",
+  },
+  {
+    question: "05.question",
+    answer: "05.answer",
+    index: "05",
+  },
+  {
+    question: "06.question",
+    answer: "06.answer",
+    index: "06",
+  },
+  {
+    question: "07.question",
+    answer: "07.answer",
+    index: "07",
+  },
+  {
+    question: "08.question",
+    answer: "08.answer",
+    index: "08",
   },
 ];
