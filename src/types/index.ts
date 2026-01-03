@@ -30,3 +30,9 @@ export type Service = {
   href: Pathnames;
   groups?: ServiceGroup[];
 };
+
+export type Quality = {
+  title: TranslationKey;
+  description: TranslationKey;
+  icon: StaticImageData;
+};
