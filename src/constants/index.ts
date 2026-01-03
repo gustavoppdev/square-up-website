@@ -2,14 +2,18 @@ import {
   adobeLogo,
   amazonLogo,
   batteryIcon,
+  communicationIcon,
+  crownIcon,
+  medalIcon,
   paintbrushIcon,
   puzzleIcon,
+  shieldIcon,
   slackLogo,
   spotifyLogo,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
-import { NavigationLink, Partner, Service } from "@/types";
+import { NavigationLink, Partner, Quality, Service } from "@/types";
 
 export const NavigationBarLinks: NavigationLink[] = [
   {
@@ -125,5 +129,28 @@ export const ServicesArray: Service[] = [
         inclusions: [],
       },
     ],
+  },
+];
+
+export const QualitiesArray: Quality[] = [
+  {
+    title: "01.title",
+    description: "01.description",
+    icon: medalIcon,
+  },
+  {
+    title: "02.title",
+    description: "02.description",
+    icon: communicationIcon,
+  },
+  {
+    title: "03.title",
+    description: "03.description",
+    icon: shieldIcon,
+  },
+  {
+    title: "04.title",
+    description: "04.description",
+    icon: crownIcon,
   },
 ];

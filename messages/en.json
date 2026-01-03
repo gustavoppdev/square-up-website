@@ -26,6 +26,28 @@
     "OurServices": {
       "headline": "Our Services",
       "paragraph": "Transform your brand with our innovative digital solutions that captivate and engage your audience."
+    },
+    "WhyChooseUs": {
+      "headline": "Why Choose SquareUp?",
+      "paragraph": "Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering exceptional results.",
+      "qualities": {
+        "01": {
+          "title": "Expertise",
+          "description": "Our team of highly skilled experts masters the digital landscape, staying ahead of industry trends to deliver cutting-edge and innovative solutions for your business."
+        },
+        "02": {
+          "title": "Client-Centric Approach",
+          "description": "We prioritize your unique goals by listening to your challenges and tailoring our premium services to meet your specific requirements. Your success is our ultimate benchmark."
+        },
+        "03": {
+          "title": "Results-Driven Solutions",
+          "description": "We blend creative strategy and technical mastery to build digital products that drive measurable growth, enhance user experience, and provide a lasting competitive edge."
+        },
+        "04": {
+          "title": "Collaborative Partnership",
+          "description": "We act as your dedicated long-term digital partner, providing constant support, maintenance, and updates to ensure your products continue to thrive in an ever-changing market."
+        }
+      }
     }
   },
   "Common": {

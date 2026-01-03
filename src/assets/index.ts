@@ -12,6 +12,10 @@ import menuIcon from "./images/icons/menu.png";
 import puzzleIcon from "./images/icons/puzzle.png";
 import batteryIcon from "./images/icons/battery.png";
 import paintbrushIcon from "./images/icons/paintbrush.png";
+import medalIcon from "./images/icons/medal.png";
+import shieldIcon from "./images/icons/shield.png";
+import crownIcon from "./images/icons/crow.png";
+import communicationIcon from "./images/icons/communication.png";
 
 import heroAbstract from "./images/heroAbstract.png";
 import titleSectionBg1 from "./images/titleSectionBg1.webp";
@@ -32,7 +36,16 @@ export {
 };
 
 // Icons
-export { menuIcon, puzzleIcon, batteryIcon, paintbrushIcon };
+export {
+  menuIcon,
+  puzzleIcon,
+  batteryIcon,
+  paintbrushIcon,
+  medalIcon,
+  shieldIcon,
+  crownIcon,
+  communicationIcon,
+};
 
 // Images
 export { heroAbstract, titleSectionBg1, titleSectionBg2, titleSectionBg3 };

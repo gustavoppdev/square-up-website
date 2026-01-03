@@ -26,6 +26,28 @@
     "OurServices": {
       "headline": "Nossas Soluções",
       "paragraph": "Transforme sua marca com nossas soluções digitais inovadoras que cativam e envolvem seu público."
+    },
+    "WhyChooseUs": {
+      "headline": "Por que escolher a SquareUp?",
+      "paragraph": "Experimente a excelência digital com uma equipe de profissionais qualificados e dedicados a entregar resultados excepcionais.",
+      "qualities": {
+        "01": {
+          "title": "Especialização",
+          "description": "Nossa equipe de especialistas domina o cenário digital, antecipando tendências globais para entregar soluções inovadoras e de ponta que destacam sua empresa no mercado atual."
+        },
+        "02": {
+          "title": "Foco no Cliente",
+          "description": "Priorizamos seus objetivos únicos através de uma escuta ativa, personalizando nossos serviços premium para atender exatamente às suas necessidades. Seu sucesso é nossa maior métrica."
+        },
+        "03": {
+          "title": "Foco em Resultados",
+          "description": "Unimos estratégia criativa e maestria técnica para criar produtos digitais que impulsionam o crescimento real, melhoram a experiência do usuário e garantem uma vantagem competitiva sólida."
+        },
+        "04": {
+          "title": "Parceria Colaborativa",
+          "description": "Atuamos como seu parceiro digital dedicado de longo prazo, oferecendo suporte contínuo e atualizações constantes para garantir que seus produtos evoluam e prosperem em um mercado dinâmico."
+        }
+      }
     }
   },
   "Common": {
