@@ -129,6 +129,11 @@
           "answer": "We provide dedicated services for feature updates, performance monitoring, and security patches to keep your digital applications running smoothly and staying competitive."
         }
       }
+    },
+    "ContactHero": {
+      "headline": "Thank you for your Interest in SquareUp",
+      "paragraph": "We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.",
+      "ctaBtn": "Start Project"
     }
   },
   "Common": {
@@ -341,6 +346,37 @@
           }
         }
       }
+    },
+    "ContactForm": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Type here",
+      "email": "Email",
+      "emailPlaceholder": "Type here",
+      "contactReason": "Why are you contacting us?",
+      "contactReasonOpts": {
+        "webDesign": "Web Design",
+        "mobileApp": "Mobile App Design",
+        "collaboration": "Collaboration",
+        "others": "Others"
+      },
+      "budget": "Your Budget",
+      "budgetDescription": "Slide to indicate your budget range",
+      "message": "Your Message",
+      "messagePlaceholder": "Type here",
+      "submitBtn": "Submit",
+      "messageSent": "Message sent successfully!"
+    }
+  },
+  "Others": {
+    "Errors": {
+      "minFullname": "Full name must be at least 3 characters long.",
+      "invalidFullname": "Please enter a valid full name (letters only).",
+      "invalidEmail": "Please enter a valid email address.",
+      "minContactReason": "Please select a reason for your contact.",
+      "messageMin": "Your message must be at least 10 characters long.",
+      "messageMax": "Your message cannot exceed 500 characters.",
+      "invalidBudget": "Please select a valid budget range.",
+      "minBudget": "The minimum budget value cannot be higher than the maximum."
     }
   }
 }

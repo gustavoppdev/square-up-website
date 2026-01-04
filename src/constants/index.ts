@@ -24,6 +24,7 @@ import {
   NavigationLink,
   Partner,
   Quality,
+  ReasonContactOption,
   Service,
   Testimonial,
 } from "@/types";
@@ -253,5 +254,31 @@ export const FAQArray: FAQ[] = [
     question: "08.question",
     answer: "08.answer",
     index: "08",
+  },
+];
+
+export const CONTACT_OPTIONS = [
+  "Web Design",
+  "Mobile App Design",
+  "Collaboration",
+  "Others",
+] as const;
+
+export const ReasonContactOptions: ReasonContactOption[] = [
+  {
+    label: "webDesign", // Chave de tradução
+    value: "Web Design",
+  },
+  {
+    label: "mobileApp",
+    value: "Mobile App Design",
+  },
+  {
+    label: "collaboration",
+    value: "Collaboration",
+  },
+  {
+    label: "others",
+    value: "Others",
   },
 ];
