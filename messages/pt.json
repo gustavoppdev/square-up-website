@@ -129,6 +129,11 @@
           "answer": "Oferecemos serviços dedicados para atualizações de recursos, monitoramento de performance e patches de segurança para manter suas aplicações funcionando perfeitamente e competitivas."
         }
       }
+    },
+    "ContactHero": {
+      "headline": "Obrigado pelo seu interesse no SquareUp.",
+      "paragraph": "Adoraríamos ouvir você e discutir como podemos ajudar a dar vida às suas ideias digitais. Aqui estão as diferentes maneiras pelas quais você pode entrar em contato conosco.",
+      "ctaBtn": "Iniciar projeto"
     }
   },
   "Common": {
@@ -341,6 +346,37 @@
           }
         }
       }
+    },
+    "ContactForm": {
+      "fullName": "Nome Completo",
+      "fullNamePlaceholder": "Digite aqui",
+      "email": "Email",
+      "emailPlaceholder": "Digite aqui",
+      "contactReason": "Por que você está nos contatando?",
+      "contactReasonOpts": {
+        "webDesign": "Web Design",
+        "mobileApp": "Mobile App Design",
+        "collaboration": "Colaboração",
+        "others": "Outros"
+      },
+      "budget": "Seu Orçamento",
+      "budgetDescription": "Deslize para indicar a faixa de orçamento",
+      "message": "Sua Mensagem",
+      "messagePlaceholder": "Digite aqui",
+      "submitBtn": "Enviar mensagem",
+      "messageSent": "Mensagem enviada com sucesso!"
+    }
+  },
+  "Others": {
+    "Errors": {
+      "minFullname": "O nome completo deve ter pelo menos 3 caracteres.",
+      "invalidFullname": "Por favor, insira um nome válido (apenas letras).",
+      "invalidEmail": "Por favor, insira um endereço de e-mail válido.",
+      "minContactReason": "Por favor, selecione um motivo para o contato.",
+      "messageMin": "Sua mensagem deve ter pelo menos 10 caracteres.",
+      "messageMax": "Sua mensagem não pode exceder 500 caracteres.",
+      "invalidBudget": "Por favor, selecione uma faixa de orçamento válida.",
+      "minBudget": "O valor mínimo do orçamento não pode ser maior que o máximo."
     }
   }
 }

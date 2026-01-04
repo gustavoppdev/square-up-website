@@ -1,3 +1,4 @@
+import { CONTACT_OPTIONS } from "@/constants";
 import { Pathnames } from "@/i18n/routing";
 import { StaticImageData } from "next/image";
 
@@ -49,4 +50,11 @@ export type FAQ = {
   question: TranslationKey;
   answer: TranslationKey;
   index: string;
+};
+
+export type ContactReason = (typeof CONTACT_OPTIONS)[number];
+
+export type ReasonContactOption = {
+  label: TranslationKey;
+  value: ContactReason;
 };
