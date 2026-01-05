@@ -32,7 +32,8 @@ import markPicture from "./images/pictures/mark.png";
 import michaelPicture from "./images/pictures/michael.png";
 import sarahPicture from "./images/pictures/sarah.png";
 
-import heroAbstract from "./images/heroAbstract.png";
+import heroAbstract from "./images/heroAbstract.webp";
+import heroBackground from "./images/heroBackground.webp";
 import titleSectionBg1 from "./images/titleSectionBg1.webp";
 import titleSectionBg2 from "./images/titleSectionBg2.webp";
 import titleSectionBg3 from "./images/titleSectionBg3.webp";
@@ -83,6 +84,7 @@ export {
 // Images
 export {
   heroAbstract,
+  heroBackground,
   titleSectionBg1,
   titleSectionBg2,
   titleSectionBg3,

@@ -1,13 +1,17 @@
-// 
-import { squareUpLogo } from "@/assets";
+// Next.js & Next-Intl
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
-import NavigationBarMobile from "./NavigationBarMobile";
-import { NavigationBarLinks } from "@/constants";
-import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
 
-const NavigationBar = () => {
+// Components
+import { Button } from "@/components/ui/button";
+import NavigationBarMobile from "./NavigationBarMobile";
+
+// Assets & Constants
+import { squareUpLogo } from "@/assets";
+import { NavigationBarLinks } from "@/constants";
+
+export const NavigationBar = () => {
   const t = useTranslations("Layout.NavigationBar");
   return (
     <header className="border-b">
@@ -16,8 +20,10 @@ const NavigationBar = () => {
           <Image
             src={squareUpLogo}
             alt="Square Up"
+            width={148}
+            height={50}
             priority
-            className="w-36 object-cover"
+            className="object-cover"
           />
         </Link>
 
@@ -47,5 +53,3 @@ const NavigationBar = () => {
     </header>
   );
 };
-
-export default NavigationBar;
