@@ -44,6 +44,8 @@ const TitleSection = ({
         alt=""
         fill
         sizes={imageSizes}
+        placeholder="blur"
+        blurDataURL={BG_MAP[bgImage].blurDataURL}
         className="object-cover object-center -z-20 opacity-40"
       />
       <div className="absolute inset-0 -z-10 bg-[#ACFF24]/25 mix-blend-overlay" />
@@ -54,6 +56,8 @@ const TitleSection = ({
         alt=""
         fill
         sizes={imageSizes}
+        placeholder="blur"
+        blurDataURL={BG_MAP[bgImage].blurDataURL}
         className="object-cover object-center -z-10"
       />
       {/* 28 40 50 */}

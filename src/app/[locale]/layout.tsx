@@ -7,12 +7,14 @@ import { Barlow } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 
+// Components
+import { NavigationBar } from "@/components/layout/Navbar/NavigationBar";
+import { Footer } from "@/components/layout/Footer";
+import { Toaster } from "@/components/ui/sonner";
+
 // Css
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import NavigationBar from "@/components/layout/NavigationBar";
-import { Toaster } from "@/components/ui/sonner";
-import { Footer } from "@/components/layout/Footer";
 
 const barlow = Barlow({
   variable: "--font-barlow",

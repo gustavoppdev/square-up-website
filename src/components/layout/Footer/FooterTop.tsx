@@ -48,24 +48,21 @@ const FooterTop = () => {
 
           <ul className="flex gap-2.5 items-center">
             {SocialMediaLinks.map((link) => (
-              <a
-                key={link.alt}
-                href={link.href}
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <div className="p-0.5 rounded-md bg-linear-to-b from-[#2e2e2e] to-[#2e2e2e]/0 hover:from-app-primary/30 hover:to-app-primary/0 transition-colors duration-300 cursor-pointer">
-                  <div className="p-4 rounded-md bg-linear-to-b from-[#242424] to-[#242424]/0">
-                    <Image
-                      src={link.icon}
-                      alt={link.alt}
-                      width={20}
-                      height={20}
-                      sizes="20px"
-                    />
+              <li key={link.alt}>
+                <a href={link.href} rel="noopener noreferrer" className="block">
+                  <div className="p-0.5 rounded-md bg-linear-to-b from-[#2e2e2e] to-[#2e2e2e]/0 hover:from-app-primary/30 hover:to-app-primary/0 transition-colors duration-300 cursor-pointer">
+                    <div className="p-4 rounded-md bg-linear-to-b from-[#242424] to-[#242424]/0">
+                      <Image
+                        src={link.icon}
+                        alt={link.alt}
+                        width={20}
+                        height={20}
+                        sizes="20px"
+                      />
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              </li>
             ))}
           </ul>
         </div>

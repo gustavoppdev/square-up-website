@@ -17,7 +17,7 @@ const CTAHero = () => {
       <div className="hidden lg:flex items-center gap-1.5 text-lg 2xl:text-xl rounded-lg border text-app-grey-60 bg-app-grey-15/40 backdrop-blur-xs px-7.5 py-4.5">
         {t.rich("paragraphDesktop", {
           badge: (chunks) => (
-            <span className="text-white capitalize px-2.5 py-2 2xl:px-3.5 2xl:py-3 rounded-md bg-app-grey-15 hover:bg-app-grey-15/80 cursor-pointer transition-colors duration-100">
+            <span className="text-white capitalize px-2.5 py-2 2xl:px-3.5 2xl:py-3 rounded-md bg-app-grey-15 hover:bg-app-grey-15/80 cursor-pointer transition-all duration-300 hover:-translate-y-1">
               {chunks}
             </span>
           ),
