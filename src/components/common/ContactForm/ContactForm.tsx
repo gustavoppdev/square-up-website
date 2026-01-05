@@ -75,7 +75,7 @@ export const ContactForm = () => {
     <form
       id="contact-form"
       onSubmit={form.handleSubmit(onSubmit)}
-      className="p-6 lg:p-18 2xl:p-24 border border-t-0"
+      className="p-6 md:p-9 lg:p-18 2xl:p-24 border border-y-0"
     >
       <FieldSet>
         <FieldGroup>

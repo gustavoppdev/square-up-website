@@ -12,6 +12,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavigationBar from "@/components/layout/NavigationBar";
 import { Toaster } from "@/components/ui/sonner";
+import { Footer } from "@/components/layout/Footer";
 
 const barlow = Barlow({
   variable: "--font-barlow",
@@ -49,7 +50,8 @@ export default async function RootLayout({ children, params }: Props) {
           <NextIntlClientProvider locale={locale}>
             <NavigationBar />
             {children}
-            <Toaster/>
+            <Footer />
+            <Toaster />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

@@ -10,6 +10,13 @@
         "careers": "Carreiras"
       },
       "contactBtn": "Fale Conosco"
+    },
+    "Footer": {
+      "stayConnected": "Fique Conectado",
+      "localization": "Alguns lugar no mundo",
+      "phone": "+1 234 567 890",
+      "email": "hello@squareup.com",
+      "copyright": "© {year} Square Up. Todos os direitos reservados."
     }
   },
   "Sections": {
