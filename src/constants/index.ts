@@ -5,17 +5,23 @@ import {
   communicationIcon,
   crownIcon,
   emilyPicture,
+  facebookIcon,
   johnPicture,
   lauraPicture,
+  linkedinIcon,
+  mailIcon,
   markPicture,
   medalIcon,
   michaelPicture,
   paintbrushIcon,
+  phoneIcon,
+  pinIcon,
   puzzleIcon,
   sarahPicture,
   shieldIcon,
   slackLogo,
   spotifyLogo,
+  twitterIcon,
   zapierLogo,
   zoomLogo,
 } from "@/assets";
@@ -26,8 +32,11 @@ import {
   Quality,
   ReasonContactOption,
   Service,
+  SocialContactLink,
+  SocialMediaLink,
   Testimonial,
 } from "@/types";
+import { Mail, Phone, Pin } from "lucide-react";
 
 export const NavigationBarLinks: NavigationLink[] = [
   {
@@ -280,5 +289,41 @@ export const ReasonContactOptions: ReasonContactOption[] = [
   {
     label: "others",
     value: "Others",
+  },
+];
+
+export const SocialMediaLinks: SocialMediaLink[] = [
+  {
+    href: "#",
+    alt: "Facebook",
+    icon: facebookIcon,
+  },
+  {
+    href: "#",
+    alt: "Twitter",
+    icon: twitterIcon,
+  },
+  {
+    href: "#",
+    alt: "LinkedIn",
+    icon: linkedinIcon,
+  },
+];
+
+export const SocialContactLinks: SocialContactLink[] = [
+  {
+    href: "#",
+    description: "email",
+    icon: mailIcon,
+  },
+  {
+    href: "#",
+    description: "phone",
+    icon: phoneIcon,
+  },
+  {
+    href: "#",
+    description: "localization",
+    icon: pinIcon,
   },
 ];

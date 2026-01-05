@@ -58,3 +58,15 @@ export type ReasonContactOption = {
   label: TranslationKey;
   value: ContactReason;
 };
+
+export type SocialMediaLink = {
+  href: string;
+  icon: StaticImageData;
+  alt: string;
+};
+
+export type SocialContactLink = {
+  href: string;
+  description: TranslationKey;
+  icon: StaticImageData;
+};
