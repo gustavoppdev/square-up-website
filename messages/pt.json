@@ -17,6 +17,17 @@
       "phone": "+1 234 567 890",
       "email": "hello@squareup.com",
       "copyright": "© {year} Square Up. Todos os direitos reservados."
+    },
+    "Metadata": {
+      "title": "SquareUp | Moldando o Futuro de Experiências Digitais",
+      "description": "Estúdio premium de produtos digitais especializado em engenharia web e mobile de alta performance. Transformamos ideias ousadas em soluções escaláveis para startups e empresas globais.",
+      "keywords": [
+        "Estúdio de Produtos Digitais",
+        "Desenvolvimento de Software Sob Medida",
+        "Agência de Design UI/UX",
+        "Engenharia de Aplicativos",
+        "Parceiro de Desenvolvimento Ágil"
+      ]
     }
   },
   "Sections": {

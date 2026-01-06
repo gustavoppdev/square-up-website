@@ -32,6 +32,7 @@ import {
   Quality,
   ReasonContactOption,
   Service,
+  SiteConfig,
   SocialContactLink,
   SocialMediaLink,
   Testimonial,
@@ -327,3 +328,8 @@ export const SocialContactLinks: SocialContactLink[] = [
     icon: pinIcon,
   },
 ];
+
+export const SITE_CONFIG: SiteConfig = {
+  url: "https://squareup.vercel.app",
+  siteName: "SquareUp",
+};
