@@ -70,3 +70,8 @@ export type SocialContactLink = {
   description: TranslationKey;
   icon: StaticImageData;
 };
+
+export type SiteConfig = {
+  url: string;
+  siteName: string;
+};
