@@ -73,6 +73,7 @@ import {
 } from "@/assets";
 import {
   FAQ,
+  MethodologyStep,
   NavigationLink,
   Partner,
   Quality,
@@ -603,5 +604,48 @@ export const WorksArray: Work[] = [
     link: "https://www.yourbank.com",
     img: yourBank,
     description: "10.description",
+  },
+];
+
+export const MethodologySteps: MethodologyStep[] = [
+  {
+    index: "01",
+    title: "01.title",
+    description: "01.description",
+  },
+  {
+    index: "02",
+    title: "02.title",
+    description: "02.description",
+  },
+  {
+    index: "03",
+    title: "03.title",
+    description: "03.description",
+  },
+  {
+    index: "04",
+    title: "04.title",
+    description: "04.description",
+  },
+  {
+    index: "05",
+    title: "05.title",
+    description: "05.description",
+  },
+  {
+    index: "06",
+    title: "06.title",
+    description: "06.description",
+  },
+  {
+    index: "07",
+    title: "07.title",
+    description: "07.description",
+  },
+  {
+    index: "08",
+    title: "08.title",
+    description: "08.description",
   },
 ];

@@ -148,10 +148,46 @@
         }
       }
     },
-    "ContactHero": {
+    "Contact": {
       "headline": "Obrigado pelo seu interesse no SquareUp.",
       "paragraph": "Adoraríamos ouvir você e discutir como podemos ajudar a dar vida às suas ideias digitais. Aqui estão as diferentes maneiras pelas quais você pode entrar em contato conosco.",
       "ctaBtn": "Iniciar projeto"
+    },
+    "Methodology": {
+      "steps": {
+        "01": {
+          "title": "Descoberta",
+          "description": "Iniciamos compreendendo profundamente seus objetivos de negócio, público-alvo e requisitos. Realizamos pesquisas detalhadas para coletar insights e definir objetivos claros, o que nos permite desenvolver uma estratégia personalizada para o seu projeto."
+        },
+        "02": {
+          "title": "Planejamento e Estratégia",
+          "description": "Com base nos dados coletados, criamos um plano de projeto abrangente. Isso inclui a definição de marcos, cronogramas e alocação de recursos. Colaboramos estreitamente com você para garantir que nossa estratégia esteja perfeitamente alinhada à sua visão."
+        },
+        "03": {
+          "title": "Design",
+          "description": "Nossos designers traduzem os requisitos em layouts visuais cativantes. Criamos wireframes e protótipos interativos para validar a interface e a experiência do usuário. Refinamos os designs com base no seu feedback até atingirmos a estética e funcionalidade ideais."
+        },
+        "04": {
+          "title": "Desenvolvimento",
+          "description": "Assim que os designs são aprovados, nossa equipe qualificada lhes dá vida. Utilizamos tecnologias de ponta e as melhores práticas de codificação para construir produtos robustos e escaláveis, mantendo uma comunicação aberta para mantê-lo atualizado sobre o progresso."
+        },
+        "05": {
+          "title": "Testes e Garantia de Qualidade",
+          "description": "Realizamos testes rigorosos para garantir que seu produto funcione perfeitamente em diferentes dispositivos e navegadores. Nossa equipe de QA verifica meticulosamente bugs e gargalos de desempenho, buscando uma experiência de usuário fluida e de alta confiabilidade."
+        },
+        "06": {
+          "title": "Implantação e Lançamento",
+          "description": "Com o produto testado e aprovado, preparamos a implantação. Lidamos com todos os aspectos técnicos do lançamento, garantindo uma transição suave para o ambiente de produção. Auxiliamos na configuração de hospedagem, servidores e integração de sistemas necessários."
+        },
+        "07": {
+          "title": "Suporte Pós-Lançamento",
+          "description": "Nosso compromisso continua após o lançamento. Oferecemos serviços de manutenção para garantir que seu produto digital continue operando com desempenho ideal. Oferecemos pacotes de suporte conforme suas necessidades, incluindo correções, atualizações de segurança e suporte técnico."
+        },
+        "08": {
+          "title": "Melhoria Contínua",
+          "description": "Trabalhamos para otimizar seu produto mesmo após o lançamento. Monitoramos o feedback dos usuários e tendências de mercado para identificar oportunidades de crescimento. Sugerimos melhorias proativas e atualizações para manter seu produto digital sempre à frente da concorrência."
+        }
+      }
     }
   },
   "Pages": {
@@ -189,6 +225,29 @@
           "Desenvolvimento de Produtos Digitais",
           "Estudos de Caso Tech",
           "Exemplos de UI/UX Design"
+        ]
+      }
+    },
+    "Methodology": {
+      "titleSection": {
+        "headline": "Processo de Início do Projeto",
+        "paragraph": "Na SquareUp, valorizamos a transparência, a colaboração e a entrega de resultados excepcionais."
+      },
+      "subtitleSection": {
+        "title": "Na SquareUp",
+        "description": "Seguimos um processo estruturado e colaborativo para garantir a entrega bem-sucedida de produtos digitais excepcionais. Nosso processo combina as melhores práticas da indústria, pensamento criativo e uma abordagem centrada no cliente.",
+        "badge": "Aqui está uma visão geral do nosso processo típico:"
+      },
+      "metadata": {
+        "title": "Nossa Metodologia | Nosso Processo para o Sucesso Digital",
+        "description": "Descubra nossa abordagem estruturada para o desenvolvimento de produtos digitais. Saiba como nosso planejamento estratégico, design ágil e engenharia de ponta transformam sua visão em realidade.",
+        "keywords": [
+          "Processo de Desenvolvimento",
+          "Metodologia Ágil",
+          "Estratégia de Produto Digital",
+          "Ciclo de Vida de Software",
+          "Processo de Design Thinking",
+          "Planejamento de Projetos Tech"
         ]
       }
     }

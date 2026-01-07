@@ -4,7 +4,7 @@ import { OurServices } from "./components/OurServices";
 import { WhyChooseUs } from "./components/WhyChooseUs";
 import { Testimonials } from "./components/Testimonials";
 import { FAQ } from "@/components/common/FAQ";
-import Contact from "./components/Contact";
+import Contact from "@/components/common/Contact";
 
 const Home = () => {
   return (
@@ -15,7 +15,9 @@ const Home = () => {
       <WhyChooseUs />
       <Testimonials />
       <FAQ />
-      <Contact />
+      <div className="section-container">
+        <Contact />
+      </div>
     </main>
   );
 };

@@ -83,3 +83,9 @@ export type Work = {
   img: StaticImageData;
   description: TranslationKey;
 };
+
+export type MethodologyStep = {
+  index: string;
+  title: TranslationKey;
+  description: TranslationKey;
+};
