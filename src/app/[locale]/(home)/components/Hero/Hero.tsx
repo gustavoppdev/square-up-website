@@ -9,7 +9,7 @@ import HeroButtons from "./HeroButtons";
 import { heroAbstract, heroBackground } from "@/assets";
 
 const sizes =
-  "(max-width:640px) 100vw, (max-width:768px) 638px, (max-width:1024px) 766px, (max-width:1280px) 1022px, (max-width:1536px) 1278px, 1534px";
+  "(max-width:640px) calc(100vw - 1rem), (max-width:768px) 638px, (max-width:1024px) 766px, (max-width:1280px) 1022px, (max-width:1536px) 1278px, 1534px";
 
 export const Hero = () => {
   return (

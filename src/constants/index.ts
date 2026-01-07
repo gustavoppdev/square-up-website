@@ -4,12 +4,48 @@ import {
   batteryIcon,
   communicationIcon,
   crownIcon,
+  design01_1,
+  design01_2,
+  design01_3,
+  design01_4,
+  design02_1,
+  design02_2,
+  design02_3,
+  design02_4,
+  design03_1,
+  design03_2,
+  design03_3,
+  design03_4,
   emilyPicture,
+  engineering01_1,
+  engineering01_2,
+  engineering01_3,
+  engineering01_4,
+  engineering02_1,
+  engineering02_2,
+  engineering02_3,
+  engineering02_4,
+  engineering03_1,
+  engineering03_2,
+  engineering03_3,
+  engineering03_4,
   facebookIcon,
   johnPicture,
   lauraPicture,
   linkedinIcon,
   mailIcon,
+  management01_1,
+  management01_2,
+  management01_3,
+  management01_4,
+  management02_1,
+  management02_2,
+  management02_3,
+  management02_4,
+  management03_1,
+  management03_2,
+  management03_3,
+  management03_4,
   markPicture,
   medalIcon,
   michaelPicture,
@@ -37,7 +73,6 @@ import {
   SocialMediaLink,
   Testimonial,
 } from "@/types";
-import { Mail, Phone, Pin } from "lucide-react";
 
 export const NavigationBarLinks: NavigationLink[] = [
   {
@@ -101,16 +136,67 @@ export const ServicesArray: Service[] = [
     href: "/services",
     groups: [
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "design.groups.01.subtitle",
+        inclusions: [
+          {
+            title: "design.groups.01.inclusions.01.title",
+            icon: design01_1,
+          },
+          {
+            title: "design.groups.01.inclusions.02.title",
+            icon: design01_2,
+          },
+          {
+            title: "design.groups.01.inclusions.03.title",
+            icon: design01_3,
+          },
+          {
+            title: "design.groups.01.inclusions.04.title",
+            icon: design01_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "design.groups.02.subtitle",
+        inclusions: [
+          {
+            title: "design.groups.02.inclusions.01.title",
+            icon: design02_1,
+          },
+          {
+            title: "design.groups.02.inclusions.02.title",
+            icon: design02_2,
+          },
+          {
+            title: "design.groups.02.inclusions.03.title",
+            icon: design02_3,
+          },
+          {
+            title: "design.groups.02.inclusions.04.title",
+            icon: design02_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "design.groups.03.subtitle",
+        inclusions: [
+          {
+            title: "design.groups.03.inclusions.01.title",
+            icon: design03_1,
+          },
+          {
+            title: "design.groups.03.inclusions.02.title",
+            icon: design03_2,
+          },
+          {
+            title: "design.groups.03.inclusions.03.title",
+            icon: design03_3,
+          },
+          {
+            title: "design.groups.03.inclusions.04.title",
+            icon: design03_4,
+          },
+        ],
       },
     ],
   },
@@ -121,16 +207,67 @@ export const ServicesArray: Service[] = [
     href: "/services",
     groups: [
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "engineering.groups.01.subtitle",
+        inclusions: [
+          {
+            title: "engineering.groups.01.inclusions.01.title",
+            icon: engineering01_1,
+          },
+          {
+            title: "engineering.groups.01.inclusions.02.title",
+            icon: engineering01_2,
+          },
+          {
+            title: "engineering.groups.01.inclusions.03.title",
+            icon: engineering01_3,
+          },
+          {
+            title: "engineering.groups.01.inclusions.04.title",
+            icon: engineering01_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "engineering.groups.02.subtitle",
+        inclusions: [
+          {
+            title: "engineering.groups.02.inclusions.01.title",
+            icon: engineering02_1,
+          },
+          {
+            title: "engineering.groups.02.inclusions.02.title",
+            icon: engineering02_2,
+          },
+          {
+            title: "engineering.groups.02.inclusions.03.title",
+            icon: engineering02_3,
+          },
+          {
+            title: "engineering.groups.02.inclusions.04.title",
+            icon: engineering02_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "engineering.groups.03.subtitle",
+        inclusions: [
+          {
+            title: "engineering.groups.03.inclusions.01.title",
+            icon: engineering03_1,
+          },
+          {
+            title: "engineering.groups.03.inclusions.02.title",
+            icon: engineering03_2,
+          },
+          {
+            title: "engineering.groups.03.inclusions.03.title",
+            icon: engineering03_3,
+          },
+          {
+            title: "engineering.groups.03.inclusions.04.title",
+            icon: engineering03_4,
+          },
+        ],
       },
     ],
   },
@@ -141,16 +278,67 @@ export const ServicesArray: Service[] = [
     href: "/services",
     groups: [
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "projectManagement.groups.01.subtitle",
+        inclusions: [
+          {
+            title: "projectManagement.groups.01.inclusions.01.title",
+            icon: management01_1,
+          },
+          {
+            title: "projectManagement.groups.01.inclusions.02.title",
+            icon: management01_2,
+          },
+          {
+            title: "projectManagement.groups.01.inclusions.03.title",
+            icon: management01_3,
+          },
+          {
+            title: "projectManagement.groups.01.inclusions.04.title",
+            icon: management01_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "projectManagement.groups.02.subtitle",
+        inclusions: [
+          {
+            title: "projectManagement.groups.02.inclusions.01.title",
+            icon: management02_1,
+          },
+          {
+            title: "projectManagement.groups.02.inclusions.02.title",
+            icon: management02_2,
+          },
+          {
+            title: "projectManagement.groups.02.inclusions.03.title",
+            icon: management02_3,
+          },
+          {
+            title: "projectManagement.groups.02.inclusions.04.title",
+            icon: management02_4,
+          },
+        ],
       },
       {
-        subtitle: "",
-        inclusions: [],
+        subtitle: "projectManagement.groups.03.subtitle",
+        inclusions: [
+          {
+            title: "projectManagement.groups.03.inclusions.01.title",
+            icon: management03_1,
+          },
+          {
+            title: "projectManagement.groups.03.inclusions.02.title",
+            icon: management03_2,
+          },
+          {
+            title: "projectManagement.groups.03.inclusions.03.title",
+            icon: management03_3,
+          },
+          {
+            title: "projectManagement.groups.03.inclusions.04.title",
+            icon: management03_4,
+          },
+        ],
       },
     ],
   },
