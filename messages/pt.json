@@ -168,6 +168,29 @@
           "Engenharia de Software Escalável"
         ]
       }
+    },
+    "Portfolio": {
+      "titleSection": {
+        "headline": "Nossos Projetos",
+        "paragraph": "Explore um portfólio de experiências digitais de alto impacto, onde a criatividade encontra a estratégia para entregar resultados excepcionais."
+      },
+      "subtitleSection": {
+        "title": "Na SquareUp",
+        "description": "Tivemos o privilégio de trabalhar com uma gama diversificada de clientes, entregando produtos digitais excepcionais que impulsionam o sucesso.",
+        "badge": "Aqui estão dez exemplos de nossos trabalhos notáveis:"
+      },
+      "metadata": {
+        "title": "Portfólio de Projetos | Casos de Sucesso em Design e Tech",
+        "description": "Explore nossos trabalhos recentes. De plataformas de e-commerce a aplicativos mobile inovadores, veja como ajudamos empresas a escalar através de design estratégico e engenharia de ponta.",
+        "keywords": [
+          "Casos de Sucesso Digital",
+          "Portfólio Web Design",
+          "Projetos Mobile Apps",
+          "Desenvolvimento de Produtos Digitais",
+          "Estudos de Caso Tech",
+          "Exemplos de UI/UX Design"
+        ]
+      }
     }
   },
   "Common": {
@@ -316,6 +339,58 @@
       "messagePlaceholder": "Digite aqui",
       "submitBtn": "Enviar mensagem",
       "messageSent": "Mensagem enviada com sucesso!"
+    },
+    "Works": {
+      "01": {
+        "title": "Experiência Digital para Perfumaria de Luxo",
+        "nameOfProject": "Z-Aura",
+        "description": "Z-Aura é uma marca de perfumes de luxo criada para elevar a autoconfiança feminina. Desenvolvemos uma presença digital sofisticada que destaca misturas de ingredientes raros e exóticos através de uma interface premium e minimalista."
+      },
+      "02": {
+        "title": "Aplicativo Mobile de Fitness e Performance",
+        "nameOfProject": "FitFusion Gym",
+        "description": "Uma plataforma transformadora projetada para empoderar atletas de todos os níveis. Desenvolvemos um app de alta energia com guias de especialistas, recursos de comunidade e galerias visuais para uma experiência de treino digital completa."
+      },
+      "03": {
+        "title": "Plataforma Educacional e de Impacto Social",
+        "nameOfProject": "ForHelp",
+        "description": "Uma iniciativa global dedicada a transformar vidas através da educação. Projetamos uma plataforma web inspiradora que facilita doações e coordenação de voluntários, focada em empoderar crianças e criar oportunidades ilimitadas."
+      },
+      "04": {
+        "title": "Soluções Digitais e Marketing Estratégico",
+        "nameOfProject": "DigitX",
+        "description": "Agência focada em fazer negócios prosperarem no cenário digital. Desenvolvemos uma plataforma de alta performance que une design de ponta e estratégias baseadas em dados para aumentar a visibilidade e o ROI da marca."
+      },
+      "05": {
+        "title": "Mobilidade Sustentável e Aluguel de Veículos Elétricos",
+        "nameOfProject": "Current Vandi",
+        "description": "Pioneira em transporte sustentável, a Current Vandi facilita o aluguel de veículos elétricos. Criamos uma interface moderna em dark mode que simplifica a locação, focando na redução de emissões de carbono e impacto ambiental."
+      },
+      "06": {
+        "title": "Portal Web de Saúde e Bem-Estar",
+        "nameOfProject": "FitFusion Gym Website",
+        "description": "Complementando a experiência mobile, o portal web permite que membros explorem planos, agendem aulas e conectem-se com treinadores em uma infraestrutura de última geração projetada para uma jornada de saúde transformadora."
+      },
+      "07": {
+        "title": "Plataforma de Cursos de Design e Desenvolvimento",
+        "nameOfProject": "SkillUp",
+        "description": "Um portal educacional interativo para criativos desbloquearem seu potencial. Desenvolvemos uma plataforma vibrante com cursos profissionais ministrados por especialistas de empresas como Adobe, Netflix e Amazon."
+      },
+      "08": {
+        "title": "Plataforma de Educação Infantil",
+        "nameOfProject": "Little Learners Academy",
+        "description": "Um ambiente digital acolhedor para uma academia infantil de destaque. A plataforma reflete a jornada educacional da escola, que conta com mais de 7.000 alunos graduados e uma equipe de educadores especialistas."
+      },
+      "09": {
+        "title": "Plataforma Premium de Streaming e Entretenimento",
+        "nameOfProject": "StreamVibe",
+        "description": "Serviço de streaming focado na melhor experiência cinematográfica. Desenvolvemos uma interface rica em conteúdo com navegação fluida, listas personalizadas e acesso sob demanda a filmes e séries em qualquer dispositivo."
+      },
+      "10": {
+        "title": "Banking Digital e Empoderamento Financeiro",
+        "nameOfProject": "YourBank",
+        "description": "Uma solução bancária digital para simplificar a jornada financeira. Desenvolvemos uma plataforma segura e intuitiva com câmbio de moedas, rastreamento de transações e serviços personalizados para necessidades exclusivas."
+      }
     }
   },
   "Others": {
