@@ -154,73 +154,78 @@
       "ctaBtn": "Start Project"
     }
   },
+  "Pages": {
+    "Services": {
+      "metadata": {
+        "title": "Digital Solutions | Design, Engineering & Agile Management",
+        "description": "Discover our end-to-end digital services: from user-centric UI/UX design to robust software engineering. We build scalable products designed to drive business growth and innovation.",
+        "keywords": [
+          "User Interface Design",
+          "Full Stack Development",
+          "Agile Project Management",
+          "MVP Development",
+          "Digital Product Consulting",
+          "Scalable Software Engineering"
+        ]
+      }
+    }
+  },
   "Common": {
     "Services": {
       "learnMoreBtn": "Learn More",
       "design": {
         "title": "Design",
         "description": "We create user-centric interfaces that elevate your brand and captivate your audience. Our focus is blending aesthetics and functionality to deliver intuitive, seamless, and visually impactful digital experiences.",
+        "badge": "Our design services include:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "User Experience (UX) Design",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "User Research and Persona Development"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Information Architecture and Wireframing"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Interactive Prototyping and User Testing"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "UI Design and Visual Branding"
               }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "User Interface (UI) Design",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Intuitive and Visually Appealing Interface Design"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Custom Iconography and Illustrations"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Typography and Color Palette Selection"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Responsive Design for Various Devices"
               }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Branding and Identity",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Logo Design and Visual Identity"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Brand Strategy and Positioning"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Brand Guidelines and Styles Guides"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Marketing Collateral Design(Brochures, Business Cards, etc...)"
               }
             }
           }
@@ -229,67 +234,56 @@
       "engineering": {
         "title": "Engineering",
         "description": "We build robust, secure, and scalable digital solutions using cutting-edge technologies. Our team transforms complex requirements into high-performance applications designed to drive your business forward.",
+        "badge": "Our engineering services include:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "Web Development",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Front-End Development(HTML, CSS, JavaScript)"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Back-End Development(PHP, Python, Ruby)"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Content Management System(CMS), Development(WordPress, Drupal)"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "E-Commerce Platform Development(Magento, Shopify)"
               }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "Mobile App Development",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Native IOS and Android App Development"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Cross-Platform App Development(React Native, Flutter)"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "App Prototyping and UI/UX Design Integration"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "App Testing, Deployment, and Maintenance"
               }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Custom Software Development",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Enterprise Software Development"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Custom Web Application Development"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Integration with Third-Party APIs and Systems"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Legacy System Modernization and Migration"
               }
             }
           }
@@ -298,67 +292,56 @@
       "projectManagement": {
         "title": "Project Management",
         "description": "We ensure your vision is delivered with punctuality, transparency, and technical excellence. We utilize agile methodologies to keep you connected to the process at every stage of the development lifecycle.",
+        "badge": "Our project management services include:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "Project Planning and Scoping",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Requirements Gathering and Analysis"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Project Roadmap and Timeline Development"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Resource Allocation and Task Assignment"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Risk Assessment and Mitigation Strategies"
               }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "Agile Development",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Iterative Developemnt and Sprints"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Scrum or Kanbam Methodology Implementatiton"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Regular Progress Updates and Demos"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Continuous Improvement and Feedback Incorporation"
               }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Quality Assurance and Testing",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Test Planning and Execution"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Functional and Usability Testing"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Performance and Security Testing"
               },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Bug Tracking and Issue Resolution"
               }
             }
           }

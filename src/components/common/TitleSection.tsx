@@ -4,6 +4,7 @@ import Image from "next/image";
 
 // Assets
 import {
+  heroBackground,
   squareUp2Logo,
   titleSectionBg1,
   titleSectionBg2,
@@ -35,7 +36,7 @@ const TitleSection = ({
   const t = useTranslations(translationNamespace);
 
   const imageSizes =
-    "(max-width: 640px) 100vw, (max-width: 768px) 608px, (max-width: 1024px) 688px, (max-width: 1280px) 944px, (max-width: 1536px) 1120px, 1376px";
+    "(max-width: 640px) calc(100vw - 1rem), (max-width: 768px) 608px, (max-width: 1024px) 688px, (max-width: 1280px) 944px, (max-width: 1536px) 1120px, 1376px";
 
   return (
     <div className="py-12.5 lg:py-25 2xl:py-30 text-center relative border-x border-b">
@@ -52,12 +53,12 @@ const TitleSection = ({
       <div className="absolute inset-0 -z-10 bg-black/70 mix-blend-overlay" />
 
       <Image
-        src={"/heroBackground.png"}
+        src={heroBackground}
         alt=""
         fill
         sizes={imageSizes}
         placeholder="blur"
-        blurDataURL={BG_MAP[bgImage].blurDataURL}
+        blurDataURL={heroBackground.blurDataURL}
         className="object-cover object-center -z-10"
       />
       {/* 28 40 50 */}
@@ -71,7 +72,7 @@ const TitleSection = ({
             className="size-12.5 lg:size-15 2xl:size-20 mb-6 lg:mb-3.5 2xl:mb-8.5 mx-auto"
           />
         )}
-        <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl">
+        <h2 className="font-semibold text-3xl lg:text-4xl 2xl:text-5xl">
           {t("headline")}
         </h2>
         <p className="text-sm md:text-base 2xl:text-lg max-w-5xl mx-auto">

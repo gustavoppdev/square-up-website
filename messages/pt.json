@@ -154,73 +154,62 @@
       "ctaBtn": "Iniciar projeto"
     }
   },
+  "Pages": {
+    "Services": {
+      "metadata": {
+        "title": "Soluções Digitais | Design, Engenharia e Gestão Ágil",
+        "description": "Explore nossa gama completa de serviços: de UI/UX focado no usuário a engenharia de software robusta. Soluções digitais ponta a ponta projetadas para impulsionar o crescimento do seu negócio.",
+        "keywords": [
+          "Design de Interface",
+          "Desenvolvimento Full Stack",
+          "Gestão de Projetos Ágeis",
+          "Desenvolvimento de MVP",
+          "Consultoria de Produto Digital",
+          "Engenharia de Software Escalável"
+        ]
+      }
+    }
+  },
   "Common": {
     "Services": {
-      "learnMoreBtn": "Saiba mais",
+      "learnMoreBtn": "Saiba Mais",
       "design": {
         "title": "Design",
-        "description": "Criamos interfaces focadas no usuário que elevam sua marca e cativam o público. Nosso foco é unir estética e funcionalidade para entregar experiências digitais intuitivas, fluidas e visualmente impactantes.",
+        "description": "Criamos interfaces centradas no usuário que elevam sua marca e cativam seu público. Nosso foco é fundir estética e funcionalidade para entregar experiências digitais intuitivas, fluidas e visualmente impactantes.",
+        "badge": "Nossos serviços de design incluem:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "Design de Experiência do Usuário (UX)",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Pesquisa de Usuário e Desenvolvimento de Personas"
               },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
+              "02": { "title": "Arquitetura de Informação e Wireframing" },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Prototipagem Interativa e Testes de Usabilidade"
               },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "04": { "title": "Design de UI e Branding Visual" }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "Design de Interface do Usuário (UI)",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Design de Interface Intuitivo e Visualmente Atraente"
               },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "02": { "title": "Iconografia e Ilustrações Personalizadas" },
+              "03": { "title": "Seleção de Tipografia e Paleta de Cores" },
+              "04": { "title": "Design Responsivo para Diversos Dispositivos" }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Branding e Identidade",
             "inclusions": {
-              "01": {
-                "title": "",
-                "icon": ""
-              },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
+              "01": { "title": "Design de Logo e Identidade Visual" },
+              "02": { "title": "Estratégia e Posicionamento de Marca" },
+              "03": { "title": "Diretrizes de Marca e Guias de Estilo" },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Design de Materiais de Marketing (Brochuras, Cartões, etc.)"
               }
             }
           }
@@ -228,138 +217,82 @@
       },
       "engineering": {
         "title": "Engenharia",
-        "description": "Construímos soluções digitais robustas, seguras e escaláveis utilizando tecnologias de ponta. Transformamos requisitos complexos em aplicações de alta performance que impulsionam o seu negócio.",
+        "description": "Construímos soluções digitais robustas, seguras e escaláveis utilizando tecnologias de ponta. Nossa equipe transforma requisitos complexos em aplicações de alta performance projetadas para impulsionar seu negócio.",
+        "badge": "Nossos serviços de engenharia incluem:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "Desenvolvimento Web",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Desenvolvimento Front-End (React, Next.js, Tailwind)"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Desenvolvimento Back-End (Node.js, Python, Go)"
               },
               "03": {
-                "title": "",
-                "icon": ""
+                "title": "Sistemas de Gestão de Conteúdo (CMS) e Headless CMS"
               },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "04": { "title": "Desenvolvimento de Plataformas de E-Commerce" }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "Desenvolvimento de Apps Mobile",
             "inclusions": {
-              "01": {
-                "title": "",
-                "icon": ""
-              },
+              "01": { "title": "Desenvolvimento Nativo iOS e Android" },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Desenvolvimento Multiplataforma (React Native, Flutter)"
               },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "03": { "title": "Prototipagem e Integração de Design UI/UX" },
+              "04": { "title": "Testes, Publicação em Lojas e Manutenção" }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Desenvolvimento de Software Sob Medida",
             "inclusions": {
               "01": {
-                "title": "",
-                "icon": ""
+                "title": "Desenvolvimento de Software Corporativo (Enterprise)"
               },
               "02": {
-                "title": "",
-                "icon": ""
+                "title": "Desenvolvimento de Aplicações Web Customizadas"
               },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "03": { "title": "Integração com APIs e Sistemas de Terceiros" },
+              "04": { "title": "Modernização e Migração de Sistemas Legados" }
             }
           }
         }
       },
       "projectManagement": {
         "title": "Gestão de Projetos",
-        "description": "Garantimos a entrega de sua visão com pontualidade, transparência e excelência técnica. Utilizamos metodologias ágeis para manter você conectado ao processo em todas as etapas do desenvolvimento.",
+        "description": "Garantimos que sua visão seja entregue com pontualidade, transparência e excelência técnica. Utilizamos metodologias ágeis para manter você conectado ao processo em todas as etapas do ciclo de desenvolvimento.",
+        "badge": "Nossos serviços de gestão incluem:",
         "groups": {
           "01": {
-            "subtitle": "",
+            "subtitle": "Planejamento e Escopo do Projeto",
             "inclusions": {
-              "01": {
-                "title": "",
-                "icon": ""
-              },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
+              "01": { "title": "Levantamento e Análise de Requisitos" },
+              "02": { "title": "Desenvolvimento de Roadmap e Cronograma" },
+              "03": { "title": "Alocação de Recursos e Atribuição de Tarefas" },
               "04": {
-                "title": "",
-                "icon": ""
+                "title": "Avaliação de Riscos e Estratégias de Mitigação"
               }
             }
           },
           "02": {
-            "subtitle": "",
+            "subtitle": "Desenvolvimento Ágil",
             "inclusions": {
-              "01": {
-                "title": "",
-                "icon": ""
-              },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "01": { "title": "Desenvolvimento Iterativo e Sprints" },
+              "02": { "title": "Implementação de Metodologia Scrum ou Kanban" },
+              "03": { "title": "Atualizações de Progresso e Demos Regulares" },
+              "04": { "title": "Melhoria Contínua e Incorporação de Feedbacks" }
             }
           },
           "03": {
-            "subtitle": "",
+            "subtitle": "Garantia de Qualidade (QA) e Testes",
             "inclusions": {
-              "01": {
-                "title": "",
-                "icon": ""
-              },
-              "02": {
-                "title": "",
-                "icon": ""
-              },
-              "03": {
-                "title": "",
-                "icon": ""
-              },
-              "04": {
-                "title": "",
-                "icon": ""
-              }
+              "01": { "title": "Planejamento e Execução de Testes" },
+              "02": { "title": "Testes Funcionais e de Usabilidade" },
+              "03": { "title": "Testes de Performance e Segurança" },
+              "04": { "title": "Rastreamento de Bugs e Resolução de Problemas" }
             }
           }
         }

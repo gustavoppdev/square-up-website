@@ -29,7 +29,7 @@ export type Service = {
   description: TranslationKey;
   icon: StaticImageData;
   href: Pathnames;
-  groups?: ServiceGroup[];
+  groups: ServiceGroup[];
 };
 
 export type Quality = {
