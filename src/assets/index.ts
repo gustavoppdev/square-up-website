@@ -83,6 +83,18 @@ import management03_2 from "./images/services/management/management03-2.svg";
 import management03_3 from "./images/services/management/management03-3.svg";
 import management03_4 from "./images/services/management/management03-4.svg";
 
+// Works
+import currentVandi from "./images/works/currentVandi.webp";
+import digitx from "./images/works/digitx.webp";
+import fitFusion from "./images/works/fitFusion.webp";
+import fitFusionGym from "./images/works/fitFusionGym.webp";
+import forHelp from "./images/works/forHelp.webp";
+import littleLearners from "./images/works/littleLearners.webp";
+import skillUp from "./images/works/skillUp.webp";
+import streamVibe from "./images/works/streamVibe.webp";
+import yourBank from "./images/works/yourBank.webp";
+import zAura from "./images/works/zAura.webp";
+
 // ====== Exports ======
 
 // Logos
@@ -183,4 +195,18 @@ export {
   management03_2,
   management03_3,
   management03_4,
+};
+
+// Works
+export {
+  currentVandi,
+  digitx,
+  fitFusion,
+  fitFusionGym,
+  forHelp,
+  littleLearners,
+  skillUp,
+  streamVibe,
+  yourBank,
+  zAura,
 };

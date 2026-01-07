@@ -75,3 +75,11 @@ export type SiteConfig = {
   url: string;
   siteName: string;
 };
+
+export type Work = {
+  title: TranslationKey;
+  nameOfProject: TranslationKey;
+  link: string;
+  img: StaticImageData;
+  description: TranslationKey;
+};

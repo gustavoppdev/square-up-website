@@ -25,6 +25,7 @@ type Props = {
   bgImage: keyof typeof BG_MAP;
   withLogo?: boolean;
   withBtn?: boolean;
+  priority?: boolean;
 };
 
 const TitleSection = ({
@@ -32,6 +33,7 @@ const TitleSection = ({
   bgImage,
   withLogo = false,
   withBtn = false,
+  priority = false,
 }: Props) => {
   const t = useTranslations(translationNamespace);
 
@@ -48,6 +50,8 @@ const TitleSection = ({
         placeholder="blur"
         blurDataURL={BG_MAP[bgImage].blurDataURL}
         className="object-cover object-center -z-20 opacity-40"
+        priority={priority}
+        {...(priority && { fetchPriority: "high" })}
       />
       <div className="absolute inset-0 -z-10 bg-[#ACFF24]/25 mix-blend-overlay" />
       <div className="absolute inset-0 -z-10 bg-black/70 mix-blend-overlay" />
@@ -60,8 +64,10 @@ const TitleSection = ({
         placeholder="blur"
         blurDataURL={heroBackground.blurDataURL}
         className="object-cover object-center -z-10"
+        priority={priority}
+        {...(priority && { fetchPriority: "high" })}
       />
-      {/* 28 40 50 */}
+
       <div className="z-10 space-y-1.5 lg:space-y-2.5 2xl:space-y-4 px-4 text-balance">
         {withLogo && (
           <Image

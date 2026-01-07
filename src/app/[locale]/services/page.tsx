@@ -8,7 +8,11 @@ import { ServicesArray } from "@/constants";
 const ServicesPage = () => {
   return (
     <main className="section-container">
-      <TitleSection translationNamespace="Sections.OurServices" bgImage={1} />
+      <TitleSection
+        translationNamespace="Sections.OurServices"
+        bgImage={1}
+        priority={true}
+      />
 
       <div className="flex flex-col border-x">
         {ServicesArray.map((service) => (

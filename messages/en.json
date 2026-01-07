@@ -168,6 +168,29 @@
           "Scalable Software Engineering"
         ]
       }
+    },
+    "Portfolio": {
+      "titleSection": {
+        "headline": "Our Works",
+        "paragraph": "Discover a portfolio of visually stunning and strategically crafted digital projects that showcase our creativity and expertise."
+      },
+      "subtitleSection": {
+        "title": "At SquareUp",
+        "description": "We have had the privilege of working with a diverse range of clients and delivering exceptional digital products that drive success.",
+        "badge": "Here are ten examples of our notable works:"
+      },
+      "metadata": {
+        "title": "Our Works | Digital Product Case Studies",
+        "description": "Explore our recent projects. From e-commerce platforms to innovative mobile apps, see how we help businesses scale through strategic design and high-end engineering.",
+        "keywords": [
+          "Digital Case Studies",
+          "Web Design Portfolio",
+          "Mobile App Projects",
+          "Digital Product Showcases",
+          "Tech Success Stories",
+          "UI/UX Design Examples"
+        ]
+      }
     }
   },
   "Common": {
@@ -366,6 +389,58 @@
       "messagePlaceholder": "Type here",
       "submitBtn": "Submit",
       "messageSent": "Message sent successfully!"
+    },
+    "Works": {
+      "01": {
+        "title": "Luxury Perfume Digital Experience",
+        "nameOfProject": "Z-Aura",
+        "description": "Z Aura is a luxury perfume brand designed to help women feel their most confident and beautiful selves. We developed a sophisticated digital presence that showcases their blend of rare and exotic ingredients through a premium interface, ensuring a lasting impression."
+      },
+      "02": {
+        "title": "Comprehensive Fitness & Gym Mobile App",
+        "nameOfProject": "FitFusion Gym",
+        "description": "FitFusion Gym is a transformative fitness platform designed to empower individuals of all levels. We developed a high-energy mobile application featuring expert guidance, inclusive community features, and visual galleries that showcase the gym in action to unleash your full potential."
+      },
+      "03": {
+        "title": "Social Impact and Educational Non-Profit Platform",
+        "nameOfProject": "ForHelp",
+        "description": "ForHelp is a global initiative dedicated to transforming lives through hope and education. We designed an inspiring web platform that facilitates donations and volunteer coordination, aiming to empower underprivileged children and create a world of boundless potential."
+      },
+      "04": {
+        "title": "Digital Solutions & Strategic Marketing Platform",
+        "nameOfProject": "DigitX",
+        "description": "DigitX is a digital agency dedicated to helping businesses thrive in a fast-paced landscape. We developed a high-performance platform that integrates cutting-edge web design with data-driven marketing strategies to increase brand visibility and deliver a higher ROI."
+      },
+      "05": {
+        "title": "Sustainable Mobility and EV Rental Platform",
+        "nameOfProject": "Current Vandi",
+        "description": "Current Vandi is a pioneer in sustainable transportation, offering an easy way to rent electric vehicles. We developed a modern interface that highlights the future of mobility, making it simple for users to find their ride while reducing carbon emissions."
+      },
+      "06": {
+        "title": "Modern Health and Wellness Gym Portal",
+        "nameOfProject": "FitFusion Gym Website",
+        "description": "Complementing their mobile experience, we built the FitFusion Gym web portal. This platform allows members to explore membership options, view class schedules, and connect with expert trainers in a state-of-the-art facility designed for a transformative health journey."
+      },
+      "07": {
+        "title": "Online Design and Development Learning Platform",
+        "nameOfProject": "SkillUp",
+        "description": "SkillUp is an interactive educational portal designed to help creatives unlock their full potential. We developed a vibrant platform that offers professional courses led by industry experts from top global companies like Adobe, Netflix, and Amazon."
+      },
+      "08": {
+        "title": "Nurturing Early Childhood Education Platform",
+        "nameOfProject": "Little Learners Academy",
+        "description": "Little Learners Academy is a dedicated kindergarten school where young minds blossom. We developed a warm digital environment featuring a proven track record of over 7,000 successful students and a team of 15+ expert educators."
+      },
+      "09": {
+        "title": "Premium Video Streaming and Entertainment Platform",
+        "nameOfProject": "StreamVibe",
+        "description": "StreamVibe is a premier streaming service delivering the best cinematic experience. We developed a content-rich interface for movies and shows on demand, featuring personalized watchlists and seamless navigation for an immersive entertainment journey."
+      },
+      "10": {
+        "title": "Digital Banking and Financial Empowerment Platform",
+        "nameOfProject": "YourBank",
+        "description": "YourBank is a digital banking solution designed to empower financial journeys. We developed a secure, dark-mode platform featuring intuitive money exchange, transaction tracking, and personalized financial services that prioritize unique customer needs."
+      }
     }
   },
   "Others": {
