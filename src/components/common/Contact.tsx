@@ -3,9 +3,9 @@ import TitleSection from "@/components/common/TitleSection";
 
 const Contact = () => {
   return (
-    <section className="section-container min-h-screen">
+    <section>
       <TitleSection
-        translationNamespace="Sections.ContactHero"
+        translationNamespace="Sections.Contact"
         bgImage={4}
         withLogo
         withBtn
