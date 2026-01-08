@@ -188,6 +188,49 @@
           "description": "We believe in continuous improvement and strive to optimize your digital product even after launch. We monitor user feedback, analytics, and market trends to identify opportunities for enhancement and growth. We proactively suggest improvements and updates to keep your digital product ahead of the curve."
         }
       }
+    },
+    "About": {
+      "title": "About SquareUp",
+      "description": "SquareUp is a digital product agency passionate about crafting exceptional experiences. We specialize in design, engineering, and project management to help businesses thrive. By following a structured and collaborative process, we combine industry best practices with creative thinking and a client-centric approach to ensure the successful delivery of every digital product."
+    },
+    "OurStory": {
+      "headline": "Our Story",
+      "steps": {
+        "01": {
+          "title": "Design",
+          "description": "In a tech-driven world, a group of talented designers united with a shared vision: that design shapes how people interact with digital products. Driven by aesthetics and usability, they founded SquareUp's design department to create stunning, user-friendly interfaces that leave a lasting impression."
+        },
+        "02": {
+          "title": "Engineering",
+          "description": "Meanwhile, brilliant engineers were busy crafting the backbone of innovation. Believing in technology's power to transform ideas into reality, they founded SquareUp's engineering division. Their mission was to build robust, scalable, and cutting-edge solutions that push the boundaries of what is possible."
+        },
+        "03": {
+          "title": "Project Management",
+          "description": "To bridge creative and technical minds, a group of project managers emerged as the glue holding everything together. Focused on communication and efficient execution, they founded our management team to ensure every project runs smoothly, on time, and within budget."
+        },
+        "04": {
+          "title": "Collaboration",
+          "description": "At SquareUp, these departments formed a cohesive, collaborative unit. By embracing collective expertise and working closely with clients, we involve them in the creative process to deliver digital solutions that consistently surpass expectations."
+        },
+        "05": {
+          "title": "Client-Centric Approach",
+          "description": "Our success is rooted in an unwavering commitment to our clients. We place them at the center of everything, taking the time to listen and understand their unique challenges. Our mission is to be trusted partners, guiding businesses through every step of their digital journey."
+        },
+        "06": {
+          "title": "Driving Success",
+          "description": "With a growing reputation across diverse industries, businesses seek SquareUp for digital products that deliver tangible results. Our success is driven by a passion for innovation, a dedication to quality, and a commitment to helping our clients thrive in the digital world."
+        }
+      }
+    },
+    "AboutCTA": {
+      "title": "Today, SquareUp Continues to Thrive as a Leading Digital Product Agency.",
+      "description": "We combine the power of design, engineering, and project management to create transformative digital experiences. We invite you to join our journey and discover how we can help bring your digital ideas to life.",
+
+      "emphasis": {
+        "introduction": "Welcome to SquareUp",
+        "badge": "Where Collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.",
+        "startProjectBtn": "Start Project"
+      }
     }
   },
   "Pages": {
@@ -248,6 +291,24 @@
           "Software Development Lifecycle",
           "Design Thinking Process",
           "Tech Project Planning"
+        ]
+      }
+    },
+    "About": {
+      "titleSection": {
+        "headline": "Driven by Innovation",
+        "paragraph": "At SquareUp, collaboration and expertise intersect to shape the future of digital products. We are dedicated to turning your vision into a high-performing reality."
+      },
+      "metadata": {
+        "title": "About Us | Our Story, Mission & Expert Team",
+        "description": "Learn more about SquareUp. We are a team of passionate designers and engineers dedicated to transforming ideas into impactful digital reality through collaboration and excellence.",
+        "keywords": [
+          "Digital Agency Culture",
+          "Meet the Team",
+          "Our Mission and Values",
+          "Software Development History",
+          "Innovative Tech Solutions",
+          "Strategic Design Partners"
         ]
       }
     }

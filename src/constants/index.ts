@@ -73,7 +73,7 @@ import {
 } from "@/assets";
 import {
   FAQ,
-  MethodologyStep,
+  Step,
   NavigationLink,
   Partner,
   Quality,
@@ -607,7 +607,7 @@ export const WorksArray: Work[] = [
   },
 ];
 
-export const MethodologySteps: MethodologyStep[] = [
+export const MethodologySteps: Step[] = [
   {
     index: "01",
     title: "01.title",
@@ -647,5 +647,37 @@ export const MethodologySteps: MethodologyStep[] = [
     index: "08",
     title: "08.title",
     description: "08.description",
+  },
+];
+export const OurStorySteps: Step[] = [
+  {
+    index: "01",
+    title: "01.title",
+    description: "01.description",
+  },
+  {
+    index: "02",
+    title: "02.title",
+    description: "02.description",
+  },
+  {
+    index: "03",
+    title: "03.title",
+    description: "03.description",
+  },
+  {
+    index: "04",
+    title: "04.title",
+    description: "04.description",
+  },
+  {
+    index: "05",
+    title: "05.title",
+    description: "05.description",
+  },
+  {
+    index: "06",
+    title: "06.title",
+    description: "06.description",
   },
 ];
