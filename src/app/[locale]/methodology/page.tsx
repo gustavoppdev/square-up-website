@@ -1,8 +1,8 @@
 import SubtitleSection from "@/components/common/SubtitleSection";
 import TitleSection from "@/components/common/TitleSection";
 import { MethodologySteps } from "@/constants";
-import MethodologyStep from "./components/MethodologyStep";
-import Contact from "../../../components/common/Contact";
+import MethodologyStep from "@/components/common/Step";
+import Contact from "@/components/common/Contact";
 
 const MethodologyPage = () => {
   return (
@@ -18,7 +18,11 @@ const MethodologyPage = () => {
 
         <ul className="grid grid-cols-1 lg:grid-cols-2">
           {MethodologySteps.map((step) => (
-            <MethodologyStep key={step.index} step={step} />
+            <MethodologyStep
+              key={step.index}
+              step={step}
+              translationNamespace="Sections.Methodology.steps"
+            />
           ))}
         </ul>
       </section>

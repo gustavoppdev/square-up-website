@@ -2,14 +2,15 @@
 import { useTranslations } from "next-intl";
 
 // Types
-import { MethodologyStep as MethodologyStepType } from "@/types";
+import { Step as StepType } from "@/types";
 
 type Props = {
-  step: MethodologyStepType;
+  step: StepType;
+  translationNamespace: string;
 };
 
-const MethodologyStep = ({ step }: Props) => {
-  const t = useTranslations("Sections.Methodology.steps");
+const Step = ({ step, translationNamespace }: Props) => {
+  const t = useTranslations(translationNamespace);
   return (
     <li className="py-10 px-6 lg:py-20 lg:px-10 2xl:py-25 2xl:px-12.5 text-balance space-y-7.5 border-b lg:odd:border-r nth-[-n+2]:border-t hover:border-b-app-primary hover:-translate-y-1 transition-all duration-300 group">
       <div className="flex gap-4 items-end">
@@ -28,4 +29,4 @@ const MethodologyStep = ({ step }: Props) => {
   );
 };
 
-export default MethodologyStep;
+export default Step;

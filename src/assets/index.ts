@@ -6,7 +6,7 @@ import slackLogo from "./images/logos/slackLogo.svg";
 import spotifyLogo from "./images/logos/spotifyLogo.svg";
 import zapierLogo from "./images/logos/zapierLogo.svg";
 import zoomLogo from "./images/logos/zoomLogo.svg";
-import squareUp2Logo from "./images/logos/squareUp2Logo.png";
+import squareUp2Logo from "./images/logos/squareUpLogo2.png";
 
 // Icons
 import menuIcon from "./images/icons/menu.png";
@@ -32,12 +32,14 @@ import markPicture from "./images/pictures/mark.png";
 import michaelPicture from "./images/pictures/michael.png";
 import sarahPicture from "./images/pictures/sarah.png";
 
+// Others
 import heroAbstract from "./images/heroAbstract.webp";
 import heroBackground from "./images/heroBackground.webp";
 import titleSectionBg1 from "./images/titleSectionBg1.webp";
 import titleSectionBg2 from "./images/titleSectionBg2.webp";
 import titleSectionBg3 from "./images/titleSectionBg3.webp";
 import titleSectionBg4 from "./images/titleSectionBg4.webp";
+import aboutHeroImg from "./images/aboutHeroImg.webp";
 
 // == Services ==
 
@@ -137,7 +139,7 @@ export {
   sarahPicture,
 };
 
-// Images
+// Others
 export {
   heroAbstract,
   heroBackground,
@@ -145,6 +147,7 @@ export {
   titleSectionBg2,
   titleSectionBg3,
   titleSectionBg4,
+  aboutHeroImg,
 };
 
 // == Services ==

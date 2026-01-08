@@ -84,7 +84,7 @@ export type Work = {
   description: TranslationKey;
 };
 
-export type MethodologyStep = {
+export type Step = {
   index: string;
   title: TranslationKey;
   description: TranslationKey;

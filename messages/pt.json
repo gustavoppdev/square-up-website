@@ -188,6 +188,49 @@
           "description": "Trabalhamos para otimizar seu produto mesmo após o lançamento. Monitoramos o feedback dos usuários e tendências de mercado para identificar oportunidades de crescimento. Sugerimos melhorias proativas e atualizações para manter seu produto digital sempre à frente da concorrência."
         }
       }
+    },
+    "About": {
+      "title": "Sobre a SquareUp",
+      "description": "A SquareUp é uma agência de produtos digitais apaixonada por criar experiências excepcionais. Somos especialistas em design, engenharia e gestão de projetos para ajudar empresas a prosperarem. Seguimos um processo estruturado e colaborativo, unindo as melhores práticas do mercado ao pensamento criativo e foco no cliente para garantir o sucesso de cada entrega."
+    },
+    "OurStory": {
+      "headline": "Nossa História",
+      "steps": {
+        "01": {
+          "title": "Design",
+          "description": "Em um mundo movido pela tecnologia, designers talentosos se uniram com uma visão: o design molda a interação humana com produtos digitais. Com foco em estética e usabilidade, fundaram o departamento de design da SquareUp para criar interfaces impactantes e intuitivas."
+        },
+        "02": {
+          "title": "Engenharia",
+          "description": "Enquanto isso, engenheiros brilhantes construíam a base da inovação. Acreditando no poder de transformar ideias em realidade, fundaram a divisão de engenharia da SquareUp para desenvolver soluções robustas, escaláveis e de ponta que desafiam o que é possível."
+        },
+        "03": {
+          "title": "Gestão de Projetos",
+          "description": "Para unir mentes criativas e técnicas, surgiu nossa equipe de gestão de projetos. Focados em comunicação eficaz e execução eficiente, eles garantem que cada projeto flua perfeitamente, cumprindo prazos e orçamentos com excelência."
+        },
+        "04": {
+          "title": "Colaboração",
+          "description": "Na SquareUp, esses departamentos formam uma unidade coesa. Ao abraçar a colaboração e envolver os clientes no processo criativo, unimos expertises para entregar soluções digitais excepcionais que superam todas as expectativas."
+        },
+        "05": {
+          "title": "Abordagem Centrada no Cliente",
+          "description": "Nosso sucesso baseia-se no compromisso inabalável com nossos clientes. Colocamos suas necessidades no centro de tudo, ouvindo e compreendendo seus desafios únicos para sermos parceiros de confiança em sua jornada digital."
+        },
+        "06": {
+          "title": "Impulsionando o Sucesso",
+          "description": "Com uma reputação crescente em diversos setores, empresas buscam a SquareUp por produtos que entregam resultados tangíveis. Nosso sucesso é movido pela paixão por inovação, dedicação à qualidade e pelo compromisso em ver nossos clientes prosperarem."
+        }
+      }
+    },
+    "AboutCTA": {
+      "title": "Hoje, a SquareUp continua a prosperar como uma agência líder em produtos digitais.",
+      "description": "Combinamos o poder do design, engenharia e gestão de projetos para criar experiências digitais transformadoras. Convidamos você a se juntar a nós nesta jornada e descobrir como podemos dar vida às suas ideias digitais.",
+
+      "emphasis": {
+        "introduction": "Bem-vindo à SquareUp",
+        "badge": "Onde colaboração, expertise e foco no cliente se encontram para moldar o futuro da inovação digital.",
+        "startProjectBtn": "Iniciar Projeto"
+      }
     }
   },
   "Pages": {
@@ -248,6 +291,24 @@
           "Ciclo de Vida de Software",
           "Processo de Design Thinking",
           "Planejamento de Projetos Tech"
+        ]
+      }
+    },
+    "About": {
+      "titleSection": {
+        "headline": "Movidos pela Inovação",
+        "paragraph": "Na SquareUp, colaboração e expertise se encontram para moldar o futuro dos produtos digitais. Somos dedicados a transformar sua visão em uma realidade de alta performance."
+      },
+      "metadata": {
+        "title": "Sobre Nós | Nossa História, Missão e Equipe de Especialistas",
+        "description": "Conheça a SquareUp. Somos um time de designers e engenheiros apaixonados por transformar ideias em realidades digitais impactantes através da colaboração e excelência.",
+        "keywords": [
+          "Cultura de Agência Digital",
+          "Conheça a Equipe",
+          "Nossa Missão e Valores",
+          "História de Desenvolvimento de Software",
+          "Soluções Tecnológicas Inovadoras",
+          "Parceiros Estratégicos de Design"
         ]
       }
     }
