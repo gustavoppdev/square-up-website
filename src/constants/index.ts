@@ -711,17 +711,17 @@ export const CurrentOpeningsArray: Opening[] = [
     title: "openings.designJob.title",
     items: [
       {
-        icon: management01_1,
+        icon: design02_1,
         title: "openings.designJob.items.01.title",
         description: "openings.designJob.items.01.description",
       },
       {
-        icon: management01_1,
+        icon: design01_2,
         title: "openings.designJob.items.02.title",
         description: "openings.designJob.items.02.description",
       },
       {
-        icon: management01_1,
+        icon: paintbrushIcon,
         title: "openings.designJob.items.03.title",
         description: "openings.designJob.items.03.description",
       },
@@ -731,17 +731,17 @@ export const CurrentOpeningsArray: Opening[] = [
     title: "openings.developmentJob.title",
     items: [
       {
-        icon: management01_1,
+        icon: engineering01_1,
         title: "openings.developmentJob.items.01.title",
         description: "openings.developmentJob.items.01.description",
       },
       {
-        icon: management01_1,
+        icon: engineering01_2,
         title: "openings.developmentJob.items.02.title",
         description: "openings.developmentJob.items.02.description",
       },
       {
-        icon: management01_1,
+        icon: engineering01_3,
         title: "openings.developmentJob.items.03.title",
         description: "openings.developmentJob.items.03.description",
       },
@@ -751,12 +751,12 @@ export const CurrentOpeningsArray: Opening[] = [
     title: "openings.managementJob.title",
     items: [
       {
-        icon: management01_1,
+        icon: management02_3,
         title: "openings.managementJob.items.01.title",
         description: "openings.managementJob.items.01.description",
       },
       {
-        icon: management01_1,
+        icon: management02_2,
         title: "openings.managementJob.items.02.title",
         description: "openings.managementJob.items.02.description",
       },
@@ -771,17 +771,17 @@ export const CurrentOpeningsArray: Opening[] = [
     title: "openings.qaJob.title",
     items: [
       {
-        icon: management01_1,
+        icon: management03_4,
         title: "openings.qaJob.items.01.title",
         description: "openings.qaJob.items.01.description",
       },
       {
-        icon: management01_1,
+        icon: management03_3,
         title: "openings.qaJob.items.02.title",
         description: "openings.qaJob.items.02.description",
       },
       {
-        icon: management01_1,
+        icon: management03_2,
         title: "openings.qaJob.items.03.title",
         description: "openings.qaJob.items.03.description",
       },

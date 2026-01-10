@@ -31,9 +31,9 @@ const PreviewCard = ({
               <Image
                 src={icon}
                 alt={title}
-                width={26}
-                height={26}
-                sizes="26px"
+                width={30}
+                height={30}
+                sizes="30px"
               />
             </div>
           </div>
