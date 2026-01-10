@@ -84,6 +84,7 @@ import {
   SocialMediaLink,
   Testimonial,
   Work,
+  Opening,
 } from "@/types";
 
 export const NavigationBarLinks: NavigationLink[] = [
@@ -679,5 +680,111 @@ export const OurStorySteps: Step[] = [
     index: "06",
     title: "06.title",
     description: "06.description",
+  },
+];
+
+export const WhyWorkAtSquareUpSteps: Step[] = [
+  {
+    index: "01",
+    title: "01.title",
+    description: "01.description",
+  },
+  {
+    index: "02",
+    title: "02.title",
+    description: "02.description",
+  },
+  {
+    index: "03",
+    title: "03.title",
+    description: "03.description",
+  },
+  {
+    index: "04",
+    title: "04.title",
+    description: "04.description",
+  },
+];
+
+export const CurrentOpeningsArray: Opening[] = [
+  {
+    title: "openings.designJob.title",
+    items: [
+      {
+        icon: design02_1,
+        title: "openings.designJob.items.01.title",
+        description: "openings.designJob.items.01.description",
+      },
+      {
+        icon: design01_2,
+        title: "openings.designJob.items.02.title",
+        description: "openings.designJob.items.02.description",
+      },
+      {
+        icon: paintbrushIcon,
+        title: "openings.designJob.items.03.title",
+        description: "openings.designJob.items.03.description",
+      },
+    ],
+  },
+  {
+    title: "openings.developmentJob.title",
+    items: [
+      {
+        icon: engineering01_1,
+        title: "openings.developmentJob.items.01.title",
+        description: "openings.developmentJob.items.01.description",
+      },
+      {
+        icon: engineering01_2,
+        title: "openings.developmentJob.items.02.title",
+        description: "openings.developmentJob.items.02.description",
+      },
+      {
+        icon: engineering01_3,
+        title: "openings.developmentJob.items.03.title",
+        description: "openings.developmentJob.items.03.description",
+      },
+    ],
+  },
+  {
+    title: "openings.managementJob.title",
+    items: [
+      {
+        icon: management02_3,
+        title: "openings.managementJob.items.01.title",
+        description: "openings.managementJob.items.01.description",
+      },
+      {
+        icon: management02_2,
+        title: "openings.managementJob.items.02.title",
+        description: "openings.managementJob.items.02.description",
+      },
+      {
+        icon: management01_1,
+        title: "openings.managementJob.items.03.title",
+        description: "openings.managementJob.items.03.description",
+      },
+    ],
+  },
+  {
+    title: "openings.qaJob.title",
+    items: [
+      {
+        icon: management03_4,
+        title: "openings.qaJob.items.01.title",
+        description: "openings.qaJob.items.01.description",
+      },
+      {
+        icon: management03_3,
+        title: "openings.qaJob.items.02.title",
+        description: "openings.qaJob.items.02.description",
+      },
+      {
+        icon: management03_2,
+        title: "openings.qaJob.items.03.title",
+        description: "openings.qaJob.items.03.description",
+      },
+    ],
   },
 ];

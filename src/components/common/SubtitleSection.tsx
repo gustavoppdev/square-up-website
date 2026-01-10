@@ -2,9 +2,10 @@ import { useTranslations } from "next-intl";
 
 type Props = {
   translationNamespace: string;
+  badge?: boolean;
 };
 
-const SubtitleSection = ({ translationNamespace }: Props) => {
+const SubtitleSection = ({ translationNamespace, badge = true }: Props) => {
   const t = useTranslations(translationNamespace);
 
   return (
@@ -16,9 +17,11 @@ const SubtitleSection = ({ translationNamespace }: Props) => {
         {t("description")}
       </p>
 
-      <h4 className="mt-6 lg:mt-7.5 2xl:mt-9 rounded-lg bg-app-grey-15 p-2.5 2xl:py-3.5 px-3 lg:text-lg hover:bg-app-grey-15/80 cursor-pointer transition-all duration-300 hover:-translate-y-1">
-        {t("badge")}
-      </h4>
+      {badge && (
+        <h4 className="mt-6 lg:mt-7.5 2xl:mt-9 rounded-lg bg-app-grey-15 p-2.5 2xl:py-3.5 px-3 lg:text-lg hover:bg-app-grey-15/80 cursor-pointer transition-all duration-300 hover:-translate-y-1">
+          {t("badge")}
+        </h4>
+      )}
     </div>
   );
 };
