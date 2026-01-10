@@ -16,7 +16,8 @@
       "localization": "Somewhere in the world",
       "phone": "+1 234 567 890",
       "email": "hello@squareup.com",
-      "copyright": "© {year} Square Up. All rights reserved."
+      "copyright": "© {year} Square Up. All rights reserved.",
+      "operatingDays": "Operating Days <badge>Monday to Friday</badge>"
     },
     "Metadata": {
       "title": "SquareUp | Shaping the Future of Digital Experiences",
@@ -425,6 +426,24 @@
           "UI/UX Design Vacancies",
           "Agile Team Culture",
           "Work at SquareUp"
+        ]
+      }
+    },
+    "Contact": {
+      "titleSection": {
+        "headline": "Contact Us",
+        "paragraph": "Get in touch with us today and let us help you with any questions or inquiries you may have."
+      },
+      "metadata": {
+        "title": "Contact Us | Start Your Digital Project with SquareUp",
+        "description": "Ready to bring your digital ideas to life? Get in touch with our team for expert consulting in design, engineering, and product strategy. Let's build something exceptional together.",
+        "keywords": [
+          "Contact Digital Agency",
+          "Hire UI/UX Designers",
+          "Software Development Consulting",
+          "Project Inquiry",
+          "Tech Partnership",
+          "SquareUp Agency Support"
         ]
       }
     }

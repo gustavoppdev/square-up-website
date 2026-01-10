@@ -135,7 +135,7 @@ export const ContactForm = () => {
         <Button
           type="submit"
           disabled={form.formState.isSubmitting}
-          className="w-full sm:w-fit mx-auto"
+          className="w-full sm:w-auto mx-auto"
           size={"lg"}
         >
           {form.formState.isSubmitting ? (

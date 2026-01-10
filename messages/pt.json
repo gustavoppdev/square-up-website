@@ -16,7 +16,8 @@
       "localization": "Alguns lugar no mundo",
       "phone": "+1 234 567 890",
       "email": "hello@squareup.com",
-      "copyright": "© {year} Square Up. Todos os direitos reservados."
+      "copyright": "© {year} Square Up. Todos os direitos reservados.",
+      "operatingDays": "Dias de Funcionamento <badge>Segunda a Sexta</badge>"
     },
     "Metadata": {
       "title": "SquareUp | Moldando o Futuro de Experiências Digitais",
@@ -407,6 +408,24 @@
           "Vagas de Design UI/UX",
           "Cultura de Time Ágil",
           "Trabalhe na SquareUp"
+        ]
+      }
+    },
+    "Contact": {
+      "titleSection": {
+        "headline": "Entre em Contato",
+        "paragraph": "Fale conosco hoje mesmo e deixe-nos ajudar com quaisquer dúvidas ou solicitações que você possa ter."
+      },
+      "metadata": {
+        "title": "Contato | Inicie seu Projeto Digital com a SquareUp",
+        "description": "Pronto para dar vida às suas ideias digitais? Entre em contato com nosso time para consultoria especializada em design, engenharia e estratégia de produto. Vamos construir algo excepcional juntos.",
+        "keywords": [
+          "Contato Agência Digital",
+          "Contratar Designers UI/UX",
+          "Consultoria de Desenvolvimento de Software",
+          "Solicitar Orçamento de Projeto",
+          "Parceria Tecnológica",
+          "Suporte Agência SquareUp"
         ]
       }
     }
