@@ -25,7 +25,7 @@ const FAQAccordion = () => {
     <AccordionItem
       key={faq.question}
       value={`item-${index}`}
-      className="p-6 lg:px-10 2xl:px-12.5 2xl:py-7.5 border-x border-b last:border-b hover:border-b-app-primary transition-all duration-300 hover:-translate-y-1"
+      className="p-6 lg:px-10 2xl:px-12.5 border-x border-b last:border-b hover:border-b-app-primary transition-all duration-300 hover:-translate-y-1"
     >
       <AccordionTrigger className="group hover:no-underline transition-colors duration-300 items-center gap-4">
         <div className="p-0.5 rounded-md bg-linear-to-b from-[#2e2e2e] to-[#2e2e2e]/0 shrink-0">

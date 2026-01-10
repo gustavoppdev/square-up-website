@@ -10,6 +10,7 @@ const AboutPage = () => {
       <TitleSection
         translationNamespace="Pages.About.titleSection"
         bgImage={1}
+        priority={true}
       />
 
       <HeroAbout />
