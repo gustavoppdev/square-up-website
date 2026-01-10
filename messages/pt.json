@@ -231,6 +231,81 @@
         "badge": "Onde colaboração, expertise e foco no cliente se encontram para moldar o futuro da inovação digital.",
         "startProjectBtn": "Iniciar Projeto"
       }
+    },
+    "CurrentOpenings": {
+      "title": "Vagas Abertas",
+      "description": "Estamos sempre à procura de talentos apaixonados por criar experiências digitais excepcionais. Seja você designer, engenheiro ou gerente de projetos, explore nossas vagas e encontre uma função que se alinhe à nossa missão.",
+      "applyNowBtn": "Candidatar-se",
+      "openings": {
+        "designJob": {
+          "title": "Vagas de Design",
+          "items": {
+            "01": {
+              "title": "Designer UI",
+              "description": "Traga sua criatividade para nosso time. Colabore com equipes multidisciplinares para projetar interfaces visualmente impactantes e intuitivas. Utilize suas habilidades em layout, tipografia e teoria das cores para criar experiências marcantes."
+            },
+            "02": {
+              "title": "Designer UX",
+              "description": "Ajude a moldar experiências de usuário excepcionais. Realize pesquisas, analise dados e crie wireframes e protótipos para interfaces centradas no usuário. Colabore com desenvolvedores para garantir jornadas fluidas e agradáveis."
+            },
+            "03": {
+              "title": "Head de Design",
+              "description": "Lidere nossa equipe de design e impulsione a visão criativa de nossos produtos. Ofereça direção estratégica e mentoria aos designers. Garanta a consistência do design e eleve nossa identidade visual através de projetos inovadores."
+            }
+          }
+        },
+        "developmentJob": {
+          "title": "Vagas de Desenvolvimento",
+          "items": {
+            "01": {
+              "title": "Desenvolvedor Frontend",
+              "description": "Dê vida aos nossos designs. Transforme wireframes de UI/UX em interfaces web interativas usando HTML, CSS e JavaScript. Colabore com designers e desenvolvedores backend para garantir integração perfeita e ótima performance."
+            },
+            "02": {
+              "title": "Desenvolvedor Backend",
+              "description": "Contribua para a construção de aplicações web robustas e escaláveis. Desenvolva lógica de servidor, integre bancos de dados e otimize a performance do sistema. Garanta a comunicação fluida entre o servidor e a interface."
+            },
+            "03": {
+              "title": "Desenvolvedor Fullstack",
+              "description": "Assuma a responsabilidade de ponta a ponta no desenvolvimento de aplicações web. Combine habilidades de front-end e back-end para criar sites dinâmicos. Colabore com stakeholders para entregar soluções completas e intuitivas."
+            }
+          }
+        },
+        "managementJob": {
+          "title": "Vagas de Gestão",
+          "items": {
+            "01": {
+              "title": "Gerente de Business Analytics",
+              "description": "Lidere nossa equipe de análise de negócios e impulsione iniciativas estratégicas. Colete requisitos, facilite a comunicação entre stakeholders e garanta o alinhamento dos projetos com os objetivos de negócio."
+            },
+            "02": {
+              "title": "Gerente de Projetos",
+              "description": "Supervisione a entrega bem-sucedida de projetos do início ao fim. Defina escopo, gerencie cronogramas e recursos, e garanta uma comunicação eficaz entre equipes multidisciplinares para impulsionar o sucesso do projeto."
+            },
+            "03": {
+              "title": "Gerente de RH",
+              "description": "Desempenhe um papel vital na gestão de nossos recursos humanos. Lidere a aquisição de talentos, engajamento e iniciativas de performance. Desenvolva estratégias de RH que promovam uma cultura de trabalho positiva e inclusiva."
+            }
+          }
+        },
+        "qaJob": {
+          "title": "Vagas de QA",
+          "items": {
+            "01": {
+              "title": "Analista de QA",
+              "description": "Garanta a qualidade de nossos produtos de software. Desenvolva planos de teste, execute casos e identifique defeitos. Colabore com desenvolvedores para garantir que nossos produtos entreguem uma experiência de usuário excepcional."
+            },
+            "02": {
+              "title": "Tester Manual",
+              "description": "Realize testes manuais abrangentes para garantir a funcionalidade de nossas aplicações. Desenvolva casos de teste, execute scripts e documente resultados. Colabore na solução de problemas e aprimore a performance do software."
+            },
+            "03": {
+              "title": "Líder de QA",
+              "description": "Lidere nossa estratégia de garantia de qualidade e supervisione as metodologias de teste. Ofereça orientação à equipe de QA, garantindo que todos os produtos atendam aos mais altos padrões de confiabilidade antes do lançamento."
+            }
+          }
+        }
+      }
     }
   },
   "Pages": {
@@ -309,6 +384,29 @@
           "História de Desenvolvimento de Software",
           "Soluções Tecnológicas Inovadoras",
           "Parceiros Estratégicos de Design"
+        ]
+      }
+    },
+    "Careers": {
+      "titleSection": {
+        "headline": "Junte-se ao Time SquareUp",
+        "paragraph": "Desbloqueie seu potencial e faça parte do nosso time de inovadores e solucionadores de problemas."
+      },
+      "subtitleSection": {
+        "title": "Bem-vindo à SquareUp, onde o talento encontra a oportunidade!",
+        "description": "Na SquareUp, acreditamos que o sucesso da nossa agência reside no talento, na paixão e na dedicação de cada membro da equipe. Somos uma agência de produtos digitais que prospera com inovação, criatividade e colaboração. Se você está pronto para fazer a diferença e contribuir em projetos de ponta, convidamos você a explorar nossas oportunidades de carreira.",
+        "badge": "Por que trabalhar na SquareUp?"
+      },
+      "metadata": {
+        "title": "Carreiras | Junte-se ao Nosso Time de Inovadores Digitais",
+        "description": "Construa o futuro dos produtos digitais conosco. Explore nossas vagas e descubra uma cultura colaborativa onde suas habilidades em design, engenharia e gestão podem prosperar.",
+        "keywords": [
+          "Vagas em Tecnologia",
+          "Carreiras em Produtos Digitais",
+          "Vagas Remotas de Engenharia",
+          "Vagas de Design UI/UX",
+          "Cultura de Time Ágil",
+          "Trabalhe na SquareUp"
         ]
       }
     }

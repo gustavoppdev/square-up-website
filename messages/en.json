@@ -231,6 +231,99 @@
         "badge": "Where Collaboration, Expertise, and Client-Centricity Intersect to Shape the Future of Digital Innovation.",
         "startProjectBtn": "Start Project"
       }
+    },
+    "WhyWorkAtSquareUp": {
+      "01": {
+        "title": "Innovative and Impactful Projects",
+        "description": "At SquareUp, you'll have the opportunity to work on exciting and impactful projects that shape the digital landscape. From designing intuitive user interfaces to developing robust software solutions, you'll be part of a team that creates products that make a difference."
+      },
+      "02": {
+        "title": "Growing Supportive Environment",
+        "description": "At SquareUp, you'll have the opportunity to work on exciting and impactful projects that shape the digital landscape. From designing intuitive user interfaces to developing robust software solutions, you'll be part of a team that creates products that make a difference."
+      },
+      "03": {
+        "title": "Continuous Learning and Growth",
+        "description": "We believe in investing in our team's growth and development. We provide opportunities for continuous learning, whether it's through workshops, training programs, or attending industry conferences. At SquareUp, you'll have the chance to expand your skill set and stay up-to-date with the latest trends and technologies."
+      },
+      "04": {
+        "title": "Challenging and Rewarding Work",
+        "description": "Our projects are challenging, but the rewards are even greater. We tackle complex problems and push ourselves to deliver innovative solutions. You'll be empowered to take ownership of your work, make a real impact, and see your ideas come to life."
+      }
+    },
+    "CurrentOpenings": {
+      "title": "Current Openings",
+      "description": "We are always looking for talented individuals passionate about creating exceptional digital experiences. Whether you are a designer, engineer, or project manager, we encourage you to explore our open positions and find a role that aligns with our mission.",
+      "applyNowBtn": "Apply Now",
+      "openings": {
+        "designJob": {
+          "title": "Design Job Openings",
+          "items": {
+            "01": {
+              "title": "UI Designer",
+              "description": "Bring your creativity to our team as a UI Designer. Collaborate with cross-functional teams to design visually stunning and user-friendly interfaces. Utilize your skills in layout, typography, and color theory to create digital experiences that leave a lasting impression."
+            },
+            "02": {
+              "title": "UX Designer",
+              "description": "Help shape exceptional user experiences. Conduct research, analyze data, and create wireframes and prototypes to design intuitive, user-centric interfaces. Collaborate closely with designers and developers to ensure seamless and enjoyable user journeys."
+            },
+            "03": {
+              "title": "Design Head",
+              "description": "Lead our design team and drive the creative vision of our products. Provide strategic direction and mentorship to UI/UX designers. Collaborate with teams to ensure design consistency and elevate our brand identity through innovative, impactful designs."
+            }
+          }
+        },
+        "developmentJob": {
+          "title": "Development Job Openings",
+          "items": {
+            "01": {
+              "title": "Frontend Developer",
+              "description": "Bring our designs to life as a Front-End Developer. Transform UI/UX wireframes into interactive web interfaces using HTML, CSS, and JavaScript. Collaborate with designers and back-end developers to ensure seamless integration and optimal user experiences."
+            },
+            "02": {
+              "title": "Backend Developer",
+              "description": "Contribute to building robust and scalable web applications. Develop server-side logic, integrate databases, and optimize system performance. Collaborate with front-end developers to ensure smooth communication between the server and the interface."
+            },
+            "03": {
+              "title": "Fullstack Developer",
+              "description": "Take end-to-end responsibility for web application development. Combine your skills in both front-end and back-end technologies to create dynamic websites. Collaborate with stakeholders to deliver comprehensive and user-friendly digital solutions."
+            }
+          }
+        },
+        "managementJob": {
+          "title": "Management Job Openings",
+          "items": {
+            "01": {
+              "title": "BA Manager",
+              "description": "Lead our business analysis team and drive strategic initiatives. Gather requirements, facilitate communication between stakeholders, and ensure project alignment with business objectives. Provide mentorship to a team of talented business analysts."
+            },
+            "02": {
+              "title": "Project Manager",
+              "description": "Oversee the successful delivery of projects from initiation to completion. Define project scope, manage timelines and resources, and ensure effective communication across cross-functional teams. Utilize your leadership skills to drive project success."
+            },
+            "03": {
+              "title": "HR Manager",
+              "description": "Play a vital role in managing our human resources. Lead talent acquisition, employee engagement, and performance initiatives. Collaborate with leadership to implement HR strategies that foster a positive and inclusive work culture."
+            }
+          }
+        },
+        "qaJob": {
+          "title": "QA Job Openings",
+          "items": {
+            "01": {
+              "title": "QA Tester",
+              "description": "Ensure the quality of our software products. Develop test plans, execute cases, and identify software defects. Collaborate with developers and stakeholders to ensure that our products meet high-quality standards and deliver an exceptional user experience."
+            },
+            "02": {
+              "title": "Manual Tester",
+              "description": "Perform comprehensive manual testing to ensure the functionality of our applications. Develop test cases, execute scripts, and document results. Collaborate with developers and QA testers to troubleshoot issues and enhance software performance."
+            },
+            "03": {
+              "title": "QA Lead",
+              "description": "Lead our quality assurance strategy and oversee testing methodologies. Provide guidance to the QA team, ensuring that all digital products are rigorously tested and meet the highest reliability standards before deployment."
+            }
+          }
+        }
+      }
     }
   },
   "Pages": {
@@ -309,6 +402,29 @@
           "Software Development History",
           "Innovative Tech Solutions",
           "Strategic Design Partners"
+        ]
+      }
+    },
+    "Careers": {
+      "titleSection": {
+        "headline": "Join Our Team at SquareUp",
+        "paragraph": "Unlock your potential and join our team of innovators and problem solvers."
+      },
+      "subtitleSection": {
+        "title": "Welcome to SquareUp, where talent meets opportunity!",
+        "description": "At SquareUp, we believe that the success of our agency lies in the talent, passion, and dedication of our team members. We are a digital product agency that thrives on innovation, creativity, and collaboration. If you're ready to make a difference and contribute to cutting-edge projects, we invite you to explore career opportunities with us.",
+        "badge": "Why Work at SquareUp?"
+      },
+      "metadata": {
+        "title": "Careers | Join Our Team of Digital Innovators",
+        "description": "Build the future of digital products with us. Explore our open positions and discover a collaborative culture where your skills in design, engineering, and management can thrive.",
+        "keywords": [
+          "Tech Jobs",
+          "Digital Product Careers",
+          "Remote Engineering Roles",
+          "UI/UX Design Vacancies",
+          "Agile Team Culture",
+          "Work at SquareUp"
         ]
       }
     }

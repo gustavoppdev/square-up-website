@@ -1,0 +1,64 @@
+import { Button } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
+import Image, { StaticImageData } from "next/image";
+
+type PreviewCardProps = {
+  title: string;
+  description: string;
+  icon: string | StaticImageData;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  href: any;
+  buttonLabel: string;
+};
+
+const PreviewCard = ({
+  title,
+  description,
+  icon,
+  href,
+  buttonLabel,
+}: PreviewCardProps) => {
+  return (
+    <li className="h-full border-b lg:border-r lg:last:border-r-0 hover:-translate-y-1 transition-all duration-300 group border-b-transparent hover:border-b-app-primary">
+      <Link
+        href={href}
+        className="p-7.5 lg:p-10 2xl:p-12.5 flex flex-col gap-6 h-full w-full"
+      >
+        {/* Header */}
+        <div className="flex items-center lg:flex-col lg:items-start gap-4 lg:gap-7.5 2xl:gap-10">
+          <div className="p-0.5 rounded-md bg-linear-to-b from-[#2e2e2e] to-[#2e2e2e]/0 group-hover:from-app-primary/30 group-hover:to-app-primary/0 transition-colors duration-300 cursor-pointer">
+            <div className="p-4 rounded-md bg-linear-to-b from-[#242424] to-[#242424]/0">
+              <Image
+                src={icon}
+                alt={title}
+                width={26}
+                height={26}
+                sizes="26px"
+              />
+            </div>
+          </div>
+          <h3 className="font-semibold text-xl lg:text-2xl 2xl:text-3xl">
+            {title}
+          </h3>
+        </div>
+
+        {/* Content */}
+        <p className="text-sm lg:text-base 2xl:text-lg text-app-grey-90 flex-1">
+          {description}
+        </p>
+
+        {/* Button */}
+        <Button
+          variant={"secondary"}
+          size={"lg"}
+          className="hover:-translate-y-1"
+          asChild
+        >
+          <div>{buttonLabel}</div>
+        </Button>
+      </Link>
+    </li>
+  );
+};
+
+export default PreviewCard;

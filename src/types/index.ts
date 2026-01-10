@@ -89,3 +89,12 @@ export type Step = {
   title: TranslationKey;
   description: TranslationKey;
 };
+
+export type Opening = {
+  title: TranslationKey;
+  items: {
+    icon: StaticImageData;
+    title: TranslationKey;
+    description: TranslationKey;
+  }[];
+};
