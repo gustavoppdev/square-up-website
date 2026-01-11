@@ -23,6 +23,13 @@ const PortfolioPage = () => {
           ))}
         </ul>
       </section>
+
+      <TitleSection
+        translationNamespace="Sections.IdeasCTA.titleSection"
+        bgImage={4}
+        withBtn
+        withLogo
+      />
     </main>
   );
 };

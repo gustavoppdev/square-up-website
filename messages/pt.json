@@ -307,6 +307,13 @@
           }
         }
       }
+    },
+    "IdeasCTA": {
+      "titleSection": {
+        "headline": "Deixe-nos dar vida às suas ideias no mundo digital.",
+        "paragraph": "Não importa quais serviços você escolha, estamos comprometidos em entregar resultados excepcionais que superem suas expectativas. Nossa equipe multidisciplinar trabalha em estreita colaboração para garantir uma visão unificada e uma execução perfeita para seu produto digital.",
+        "ctaBtn": "Iniciar Projeto"
+      }
     }
   },
   "Pages": {
