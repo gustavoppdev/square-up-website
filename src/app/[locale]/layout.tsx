@@ -10,6 +10,7 @@ import { routing } from "@/i18n/routing";
 // Components
 import { NavigationBar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { ScrollToTop } from "@/components/layout/ScrollToTop";
 import { Toaster } from "@/components/ui/sonner";
 
 // Css
@@ -93,6 +94,7 @@ export default async function RootLayout({ children, params }: Props) {
             <NavigationBar />
             {children}
             <Footer />
+            <ScrollToTop />
             <Toaster />
           </NextIntlClientProvider>
         </ThemeProvider>
