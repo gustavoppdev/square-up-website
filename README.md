@@ -6,7 +6,7 @@
 
 _Uma agência de produtos digitais especializada em engenharia web e mobile de alta performance._
 
-#### [Link da demo](https://squareup.vercel.app)
+#### [Link da demo](https://squareup-ten.vercel.app)
 
 ---
 
