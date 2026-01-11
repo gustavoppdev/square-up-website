@@ -656,6 +656,11 @@
       "title": "Página não encontrada",
       "description": "A página que você está procurando pode ter sido removida, ter tido seu nome alterado ou estar temporariamente indisponível.",
       "button": "Voltar para o Início"
+    },
+    "LanguageSwitcher": {
+      "changeLanguage": "Mudar Idioma",
+      "portuguese": "Português",
+      "english": "Inglês"
     }
   }
 }

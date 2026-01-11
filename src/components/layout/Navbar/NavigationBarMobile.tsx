@@ -18,6 +18,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { StayConnectedWidget } from "@/components/common/StayConnectedWidget";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 // Assets & Constants
 import { menuIcon, squareUpLogo } from "@/assets";
@@ -65,7 +66,9 @@ const NavigationBarMobile = () => {
               </SheetClose>
             </li>
           ))}
-          <li>{/* <LanguageSwitcher /> */}</li>
+          <li>
+            <LanguageSwitcher />
+          </li>
         </ul>
 
         <SheetFooter>

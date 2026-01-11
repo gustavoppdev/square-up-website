@@ -10,6 +10,7 @@ import NavigationBarMobile from "./NavigationBarMobile";
 // Assets & Constants
 import { squareUpLogo } from "@/assets";
 import { NavigationBarLinks } from "@/constants";
+import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 export const NavigationBar = () => {
   const t = useTranslations("Layout.NavigationBar");
@@ -28,7 +29,7 @@ export const NavigationBar = () => {
           />
         </Link>
 
-        <ul className="hidden lg:flex gap-2 xl:gap-6">
+        <ul className="hidden lg:flex items-center gap-2 xl:gap-6">
           {NavigationBarLinks.map((link) => (
             <li key={link.label}>
               <Button variant={"ghost"} size={"lg"} asChild>
@@ -36,6 +37,9 @@ export const NavigationBar = () => {
               </Button>
             </li>
           ))}
+          <li>
+            <LanguageSwitcher desktop />
+          </li>
         </ul>
 
         <Button
