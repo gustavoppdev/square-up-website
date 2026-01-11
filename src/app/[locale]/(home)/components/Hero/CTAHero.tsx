@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 const CTAHero = () => {
   const t = useTranslations("Sections.Hero");
   return (
-    <div className="space-y-7.5 2xl:space-y-10 z-10">
+    <div className="flex flex-col items-center gap-7.5 2xl:gap-10 z-10">
       <h1 className="font-semibold text-4xl lg:text-5xl 2xl:text-6xl">
         {t.rich("headline", {
           block: (chunks) => <span className="block">{chunks}</span>,

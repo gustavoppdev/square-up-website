@@ -8,11 +8,11 @@ const HeroButtons = () => {
       <Button
         variant={"outline"}
         size={"lg"}
-        className="bg-app-grey-15/40! backdrop-blur-xs 2xl:text-lg"
+        className="bg-app-grey-15/40! backdrop-blur-xs"
       >
         {t("worksBtn")}
       </Button>
-      <Button variant={"default"} size={"lg"} className="2xl:text-lg">
+      <Button variant={"default"} size={"lg"}>
         {t("contactBtn")}
       </Button>
     </div>

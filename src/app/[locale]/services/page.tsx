@@ -19,6 +19,13 @@ const ServicesPage = () => {
           <ServiceSection key={service.title} service={service} />
         ))}
       </div>
+
+      <TitleSection
+        translationNamespace="Sections.IdeasCTA.titleSection"
+        bgImage={4}
+        withBtn
+        withLogo
+      />
     </main>
   );
 };
