@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# SquareUp
 
-First, run the development server:
+### Digital Product Agency
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+_Uma agência de produtos digitais especializada em engenharia web e mobile de alta performance._
+
+#### [Link da demo](https://squareup.vercel.app)
+
+---
+
+[![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2-61dafb?style=flat-square&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+
+</div>
+
+---
+
+## 📐 Design
+
+Este projeto foi desenvolvido a partir de um design profissional criado no Figma:
+
+**[Praha](https://www.figma.com/@praha)** — [Link do Design](https://www.figma.com/community/file/1305400086109606332/digital-agency-company-website-ui-design-template-in-dark-theme-free-editable)
+
+## ✨ Sobre o Projeto
+
+**SquareUp** é uma plataforma que representa uma agência digital fictícia com foco em:
+
+- **Performance**: Otimização com Server Components e Next.js 16.
+- **Internacionalização**: Suporte completo para múltiplos idiomas (`en`, `pt`) via `next-intl`.
+- **SEO**: Metadata e OpenGraph dinâmicos
+- **Type Safety**: TypeScript
+- **UI/UX**: Design system com Tailwind CSS 4, shadcn/ui e Radix UI
+
+## 🛠️ Stack
+
+Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · shadcn/ui · next-intl
+
+## ✨ Destaques
+
+- Internacionalização completa (i18n) com rotas dinâmicas e traduzidas a partir do idioma
+- SEO otimizado com metadata dinâmica
+- Design system acessível (WCAG)
+- Layout fluido para Mobile, Tablet e Desktop.
+- Type safety completo
+
+## 🏗️ Estrutura do Projeto
+
+```
+src/
+├── app/[locale]/          # Rotas internacionalizadas
+│   ├── layout.tsx         # Layout root + metadata
+│   ├── globals.css        # Design tokens CSS
+│   └── [rota]/
+│       ├── page.tsx       # Página da rota
+│       └── components/    # Componentes específicos desta página
+├── components/            # Componentes reutilizáveis globais
+│   ├── layout/            # Header, Footer, Navbar
+│   ├── sections/          # Seções compartilhadas
+│   └── ui/                # shadcn/ui components
+├── lib/                   # Utilitários
+├── i18n/                  # Configuração next-intl
+├── constants/             # Dados estáticos
+└── types/                 # TypeScript definitions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pré-requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 20+
+- npm, yarn, pnpm ou bun
 
-## Learn More
+### Instalação
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone o repositório
+git clone https://github.com/gustavoppdev/square-up.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Entre no diretório
+cd square-up
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Instale as dependências
+npm install
+```
 
-## Deploy on Vercel
+### Desenvolvimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Inicie o servidor local
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acesse [http://localhost:3000](http://localhost:3000) para visualizar o projeto.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Autor
+
+**Gustavo Henrique**
+
+Desenvolvedor Front-end especializado em React, Next.js e arquiteturas modernas. Este projeto demonstra habilidades em:
+
+- Arquitetura de aplicações escaláveis
+- Performance e otimizações
+- Design systems e componentização
+- Type safety e qualidade de código
+- SEO e acessibilidade
+- Internacionalização
+
+---
+
+<div align="center">
+
+**[⬆ Voltar ao topo](#squareup)**
+
+Feito com ❤️ e TypeScript
+
+</div>
