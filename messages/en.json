@@ -715,6 +715,9 @@
       "messageMax": "Your message cannot exceed 500 characters.",
       "invalidBudget": "Please select a valid budget range.",
       "minBudget": "The minimum budget value cannot be higher than the maximum."
+    },
+    "Loading": {
+      "title": "Loading..."
     }
   }
 }
