@@ -647,9 +647,14 @@
       "messageMax": "Sua mensagem não pode exceder 500 caracteres.",
       "invalidBudget": "Por favor, selecione uma faixa de orçamento válida.",
       "minBudget": "O valor mínimo do orçamento não pode ser maior que o máximo."
+    },
+    "Loading": {
+      "title": "Carregando..."
+    },
+    "NotFound": {
+      "title": "Página não encontrada",
+      "description": "A página que você está procurando pode ter sido removida, ter tido seu nome alterado ou estar temporariamente indisponível.",
+      "button": "Voltar para o Início"
     }
-  },
-  "Loading": {
-    "title": "Carregando..."
   }
 }
