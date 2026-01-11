@@ -531,7 +531,7 @@ export const SocialContactLinks: SocialContactLink[] = [
 ];
 
 export const SITE_CONFIG: SiteConfig = {
-  url: "https://squareup.vercel.app",
+  url: "https://squareup-ten.vercel.app",
   siteName: "SquareUp",
 };
 
