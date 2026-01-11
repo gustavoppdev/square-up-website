@@ -23,11 +23,12 @@ export const NavigationBar = () => {
             width={148}
             height={50}
             priority
+            sizes="148px"
             className="object-cover"
           />
         </Link>
 
-        <ul className="hidden lg:flex gap-4 xl:gap-6">
+        <ul className="hidden lg:flex gap-2 xl:gap-6">
           {NavigationBarLinks.map((link) => (
             <li key={link.label}>
               <Button variant={"ghost"} size={"lg"} asChild>
